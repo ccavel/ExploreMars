@@ -5,15 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "2396133535",
+    "hash" : "2721913561",
     "id" : "6C1C572",
-    "lastKnownWriteTime" : 1555061343,
-    "last_content_update" : 1555061343979,
-    "path" : "D:/alpha/Cours/ENSC1A/Transdi_ExploreMars/AnalyseR/PreparationVariables.R",
-    "project_path" : "PreparationVariables.R",
+    "lastKnownWriteTime" : 1555704001,
+    "last_content_update" : 1555704001015,
+    "path" : "D:/alpha/Cours/ENSC1A/Transdi_ExploreMars/projet R/PreparationVariables.R",
+    "project_path" : null,
     "properties" : {
-        "cursorPosition" : "17,0",
-        "scrollLine" : "0"
+        "cursorPosition" : "43,0",
+        "scrollLine" : "15"
     },
     "relative_order" : 2,
     "source_on_save" : false,

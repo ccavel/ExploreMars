@@ -3,24 +3,43 @@
 
 
 #Installation des librairies
+
 install.packages("ClustOfVar")
 install.packages("PCAmixdata")
-#install.packages("dplyr")
+install.packages("dplyr")
 
 library(ClustOfVar)
 library(PCAmixdata)
-#library("dplyr")
+library("dplyr")
+
+#Nettoyage de l'environement de travail
+rm(list = ls())
+
+#Import des data
+data <- read.table("Data/Data.txt", header=TRUE)
 
 #m0 est la matrice dans laquelle les variables qualitatives et quantitatives ont été choisies et mis sous le bon format.
 
-m0 <- cestlebon_original[,c("Genre","HabitudeTravaillerEnsemble","DifficulteTrouverRoche","BonneEquipe","PerformancePerso","PerformanceCoeq","EquilibreParole","EquilibreQuestions","BonneEquipe.1","habitudeGuider","HabitudeSeFaireGuider","SensOrientation","GeneVisionCoeq","PdCs","Module","Role","TrouveRoche")]
+selectedVar <- c("Genre", "HabitudeTravaillerEnsemble", "DifficulteTrouverRoche", "QualificationTravailEquipe", "BonneCommunication", 
+                 "PerformancePerso", "PerformanceCoeq", "EquilibreParole", "EquilibreQuestions", "BonneEquipe", "HabitudeGuider", 
+                 "HabitudeEtreGuider", "SensOrientation", "GeneVisionCoeq", "PdCs", "Module", "Role", "TrouveRoche")
+
+qualiVar <- c("Genre", "HabitudeTravaillerEnsemble","QualificationTravailEquipe","BonneCommunication","EquilibreParole", "EquilibreQuestions",
+              "BonneEquipe","HabitudeGuider", "HabitudeEtreGuider","SensOrientation","GeneVisionCoeq","Module", "Role","TrouveRoche")
+quantiVar <- c("DifficulteTrouverRoche","PerformancePerso", "PerformanceCoeq","PdCs")
+m0 <- data[,selectedVar]
 str(m0)
 
-for(i in c("Genre","BonneEquipe","EquilibreParole","EquilibreQuestions","BonneEquipe.1","habitudeGuider","HabitudeSeFaireGuider","SensOrientation","GeneVisionCoeq","Module","Role","TrouveRoche")){
+
+# Transforme toutes les variables qualtitatives en "factor" à la place de "int"
+for(i in qualiVar ){
   m0[,i]<-as.factor(m0[,i])
 }
+rm(i)
+str(m0)
 
-m0.echecs <- m0[m0[,"TrouveRoche"]==0,]
-m0.reussite <-m0[m0[,"TrouveRoche"]==1,]
+# Sépare creer deux matrices de donnée. Une pour les echecs, l'autre pour les réussites
+m0.echecs <- m0[m0[,"TrouveRoche"]=="NON",]
+m0.reussite <-m0[m0[,"TrouveRoche"]=="OUI",]
 
 

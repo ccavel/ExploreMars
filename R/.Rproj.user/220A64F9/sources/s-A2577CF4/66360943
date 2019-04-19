@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1555252394789.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "66360943",
+    "lastKnownWriteTime" : 1555404075,
+    "last_content_update" : 1555404075571,
+    "path" : "D:/alpha/Cours/ENSC1A/Transdi_ExploreMars/projet R/Analyse_ClustOfVar1.R",
+    "project_path" : "Analyse_ClustOfVar1.R",
+    "properties" : {
+        "cursorPosition" : "40,0",
+        "scrollLine" : "17",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 7,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

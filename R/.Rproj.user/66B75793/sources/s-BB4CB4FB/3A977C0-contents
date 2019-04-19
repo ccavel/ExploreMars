@@ -1,0 +1,47 @@
+#Ce script nécessite l'utilisation préalable de PreparationVariables.R
+#Ici on utilise la package ClustOfVar pour regrouper les variables interdépendantes.
+#Reférence à la documentation : https://cran.r-project.org/web/packages/ClustOfVar/ClustOfVar.pdf
+
+tree <- hclustvar(X.quali = m0[,c("Genre","BonneCommunication","EquilibreParole","EquilibreQuestions","BonneEquipe","HabitudeGuider","HabitudeEtreGuider","SensOrientation","GeneVisionCoeq","Module","TrouveRoche")],
+                  X.quanti = m0[,c("DifficulteTrouverRoche","PerformancePerso","PerformanceCoeq","PdCs")])
+plot(tree)
+
+#Choix du nombre de clusters (Je ne comprend pas exactement comment choisir la valeur de B)
+
+stability(tree,B=40)
+
+#Prendre 6 Clusters semble être mieux que 3. On reste sur 3 pour les testspour l'instant. 
+#9 et 11 renvoient d'excellent résultats et divisent déjà notre nombre de variables par 2 !
+
+part <- cutreevar(tree,3)
+print(part)
+summary(part)
+#Les résultats ici nous isolent GeneVisionCoeq et PdCs. Est-ce que les variables dans le même groupe que TrouverRoche
+#Sont les plus pertinentes à conserver?
+
+
+
+#Même travail en séparant les échecs et les réussites
+#   ---Echecs : 
+tree.echecs <- hclustvar(X.quali = m0.echecs[,c("Genre","BonneCommunication","EquilibreParole","EquilibreQuestions","BonneEquipe","HabitudeGuider","HabitudeEtreGuider","SensOrientation","GeneVisionCoeq","Module")],
+                  X.quanti = m0.echecs[,c("DifficulteTrouverRoche","PerformancePerso","PerformanceCoeq","PdCs")])
+plot(tree.echecs)
+
+stability(tree.echecs,B=40)
+
+part.echecs <- cutreevar(tree.echecs,7)
+print(part.echecs)
+summary(part.echecs)
+
+#   ---Réussites : 
+tree.reussite <- hclustvar(X.quali = m0.reussite[,c("Genre","BonneCommunication","EquilibreParole","EquilibreQuestions","BonneEquipe","HabitudeGuider","HabitudeEtreGuider","SensOrientation","GeneVisionCoeq","Module")],
+                  X.quanti = m0.reussite[,c("DifficulteTrouverRoche","PerformancePerso","PerformanceCoeq","PdCs")])
+plot(tree.reussite)
+
+stability(tree.reussite,B=40)
+#8 semble le plus faible à être pertinent, 13 est le meilleur
+
+part.reussite <- cutreevar(tree.reussite,7)
+print(part.reussite)
+summary(part.reussite)
+

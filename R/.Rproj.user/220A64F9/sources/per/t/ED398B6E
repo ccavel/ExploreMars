@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1555058483005.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "ED398B6E",
+    "lastKnownWriteTime" : 7226435094589303907,
+    "last_content_update" : 1555058483005,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "E8137B5B",
+        "caption" : "cestlebon_original",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=cestlebon_original&cache_key=E8137B5B",
+        "displayedObservations" : "142",
+        "environment" : "",
+        "object" : "cestlebon_original",
+        "preview" : "0",
+        "totalObservations" : "142",
+        "variables" : "20"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

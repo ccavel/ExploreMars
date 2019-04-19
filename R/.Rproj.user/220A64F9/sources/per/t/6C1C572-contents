@@ -1,0 +1,26 @@
+#Ceci est le premier script à lancer à la lecture du projet.
+#Il gère les librairies, et la préparation des variables.
+
+
+#Installation des librairies
+install.packages("ClustOfVar")
+install.packages("PCAmixdata")
+#install.packages("dplyr")
+
+library(ClustOfVar)
+library(PCAmixdata)
+#library("dplyr")
+
+#m0 est la matrice dans laquelle les variables qualitatives et quantitatives ont été choisies et mis sous le bon format.
+
+m0 <- cestlebon_original[,c("Genre","HabitudeTravaillerEnsemble","DifficulteTrouverRoche","BonneEquipe","PerformancePerso","PerformanceCoeq","EquilibreParole","EquilibreQuestions","BonneEquipe.1","habitudeGuider","HabitudeSeFaireGuider","SensOrientation","GeneVisionCoeq","PdCs","Module","Role","TrouveRoche")]
+str(m0)
+
+for(i in c("Genre","BonneEquipe","EquilibreParole","EquilibreQuestions","BonneEquipe.1","habitudeGuider","HabitudeSeFaireGuider","SensOrientation","GeneVisionCoeq","Module","Role","TrouveRoche")){
+  m0[,i]<-as.factor(m0[,i])
+}
+
+m0.echecs <- m0[m0[,"TrouveRoche"]==0,]
+m0.reussite <-m0[m0[,"TrouveRoche"]==1,]
+
+

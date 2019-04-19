@@ -1,0 +1,27 @@
+#Ce script nécessite l'utilisation préalable de PreparationVariables.R
+#Ici sont effectuées des ACP sur une série de variables qualitatives et quantitatives.
+
+res.pca<-PCAmix(X.quali = m0[,c("Genre","BonneEquipe","EquilibreParole","EquilibreQuestions","BonneEquipe.1","habitudeGuider","HabitudeSeFaireGuider","SensOrientation","GeneVisionCoeq","Module","Role","TrouveRoche")],
+                X.quanti = m0[,c("DifficulteTrouverRoche","PerformancePerso","PerformanceCoeq","PdCs")],rename.level=TRUE)
+
+res.pca<-PCAmix(
+                X.quanti = m0[,c("DifficulteTrouverRoche","PerformancePerso","PerformanceCoeq","PdCs")],rename.level=TRUE)
+
+res.pca<-PCAmix(X.quali = m0[,c("BonneEquipe.1","EquilibreParole","BonneEquipe")],
+                X.quanti = m0[,c("DifficulteTrouverRoche","PerformancePerso","PerformanceCoeq","PdCs")],rename.level=TRUE)
+
+#Informations sur les dimentions
+res.pca$eig
+res.pca$ind$contrib.pct
+res.pca$quanti$contrib.pct
+res.pca$quali$contrib.pct
+
+#mpca<-cbind(m0,res.pca$ind$contrib.pct[,1:3])
+
+
+#Visualisation
+plot(res.pca, axes=c(1,2),choice = "ind")
+plot(res.pca, axes=c(1,2),choice = "cor")
+plot(res.pca, axes=c(1,2),choice = "levels")
+
+

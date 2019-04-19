@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1555688235451.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "8|196|23|0|\n26|91|28|4|\n35|182|50|4|\n53|91|55|4|\n61|182|76|0|\n79|91|81|4|\n",
+    "hash" : "0",
+    "id" : "E4B09DCF",
+    "lastKnownWriteTime" : 1555698595,
+    "last_content_update" : 1555698607155,
+    "path" : "C:/Users/adrie/Desktop/projet R/Scripte/Analyse_Descriptive.R",
+    "project_path" : "Scripte/Analyse_Descriptive.R",
+    "properties" : {
+        "cursorPosition" : "31,0",
+        "scrollLine" : "1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

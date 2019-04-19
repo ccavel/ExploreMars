@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1555057272523.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2056041188",
+    "id" : "93DEA600",
+    "lastKnownWriteTime" : 1555253239,
+    "last_content_update" : 1555253239801,
+    "path" : "D:/alpha/Cours/ENSC1A/Transdi_ExploreMars/AnalyseR/ANALYSE_ACP1.R",
+    "project_path" : "ANALYSE_ACP1.R",
+    "properties" : {
+        "cursorPosition" : "4,103",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

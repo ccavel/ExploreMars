@@ -30,7 +30,7 @@ require_once "includes/navbar.php";
 		</tr>
 		<tr>
 			<td>Etat de l'art</td>
-			<td>Bibliographie explicitant les études réalisée sur les sujets de la Conscience de Situation et du Partage de Conscience de Situation</td>
+			<td>Bibliographie explicitant les études réalisées sur les sujets de la Conscience de Situation et du Partage de Conscience de Situation</td>
 			<td>1,3 Mo</td>
 			<td width=10% class="text-center">
 			<a href="downloads/EdA.pdf"><img src="images/upload.png"  alt="7th slide" width=30%></a>

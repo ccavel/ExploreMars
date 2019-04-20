@@ -23,10 +23,10 @@ require_once "includes/navbar.php";
     <h1 class="left text-center">Analyses & Résultats</h1>
     <p class="lead text-justify">
       <br/>
-      <strong>But :</strong> On cherche ici a caractériser les groupes qui ont réussi la mission et ceux qui ont échouer en fonction des 
+      <strong>But :</strong> On cherche ici a caractériser les groupes qui ont réussi la mission et ceux qui ont échoué en fonction des 
       réponses apportées au questionnaire post-expérimental. Plus concrètement, on cherche les variables qui ont une influence
       significatives au sein des groupes "Echec" et "Reussite", ce qui nous permettrait de dresser le profil type d'une équipe
-      qui échoue (idem pour une équipe qui réussit).
+      qui échoue (idem pour une équipe qui réussi).
       <br/>
  </p>
 <br/>

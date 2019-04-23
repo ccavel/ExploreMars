@@ -12,7 +12,7 @@ require_once "includes/navbar.php";
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
     <li class="breadcrumb-item"><a class="formerlink" href="index.php">Home</a></li>
-    <li class="breadcrumb-item active" aria-current="page">Le Partage de Conscience de Situation</li>
+    <li class="breadcrumb-item active" aria-current="page">Notre Expérience</li>
   </ol>
 </nav>
 

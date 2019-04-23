@@ -19,19 +19,9 @@
     <!-- Grid column -->
     <div class="col-md-3 mb-md-0 mb-3">
         <!-- Links -->
-        <h5 class="text-uppercase">Links</h5>
-        <ul>
-          <ol>
-            <a href="propos.php">A propos de nous</a>
-</ol>
-          <ol>
-            <a href="https://ensc.bordeaux-inp.fr/fr">A propos de l'ENSC</a>
-          </ol>
-
-          <ol>
-            <a href="download.php">Downloads</a>
-          </ol>
-        </ul>
+        <a href="propos.php">A propos de nous</a> <br/>
+        <a href="https://ensc.bordeaux-inp.fr/fr">A propos de l'ENSC</a><br/>
+        <a href="download.php">Téléchargements</a>
       </div>
     <!-- Grid column -->
 

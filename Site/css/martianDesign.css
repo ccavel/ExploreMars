@@ -8,8 +8,13 @@ body {
 }
 
 .carousel-item img {
-	height: 90%;
+	height: auto;
 	width : auto;
+}
+
+.box {
+	border : 1px solid black;
+	padding : 6px;
 }
 
 .content {
@@ -23,6 +28,13 @@ footer {
 	width: 100%;
 }
 
+.home{
+	background:rgba(255, 255, 255, 0.764)
+}
+.home:hover {
+	background: white;
+	box-shadow: 0.5px 1px 8px grey;
+}
 .right {
 	text-align: right;
 	font-size: 3.5rem;
@@ -43,7 +55,6 @@ footer {
 	color: rgb(121, 0, 0); 
 }
 
-
 /*style du breadcrumb (couleur de "home" notamment)*/
 .formerlink {
 	color: rgb(121, 0, 0);
@@ -55,9 +66,12 @@ footer {
 	text-decoration: underline;
 }
 
-/*style hover de tous les "a..."*/
+/*style de tous les "a..."*/
+a {
+	color: black;
+}
 a:hover {
-	color: rgb(121, 0, 0);
+	color: inherit;
 	text-decoration: none;
 }
 

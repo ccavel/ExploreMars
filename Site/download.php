@@ -12,12 +12,12 @@ require_once "includes/navbar.php";
 <div class="container text-center">
 <div class="jumbotron jumbotron-fluid bg-white">
 <div class="container">
-		<h1>Livrables</h1>
-		<p>Ici, vous pourrez télécharger l'ensemble de nos livrables.</p> <br/>
+		<h1>Téléchargements</h1>
+		<p>Ici, vous pourrez télécharger l'ensemble de nos documents.</p> <br/>
 		
 		<table class="table table-danger">
 		<tr>
-			<th>Nom du livrable</th><th>Description</th><th>Poids</th><th>Télécharger</th>		
+			<th>Livrable</th><th>Description</th><th>Poids</th><th>Télécharger</th>		
 		</tr>
 		<tr>
 			<td>Cahier des charges</td>
@@ -55,6 +55,34 @@ require_once "includes/navbar.php";
 
 		</table> 
 		
+		<br/>
+		<br/>
+
+		<table class="table table-danger">
+		<tr>
+			<th>Articles</th><th>Auteurs</th><th>Description</th><th>Poids</th><th>Télécharger</th>		
+		</tr>
+		<tr>
+			<td>Shared Spatial Situation Awareness as a Team Performance Indicator in Collaborative Spatial Orientation Task (AHFE)</td>
+			<td>Baptiste Prebot, Jean-Marc Salotti, Coralie Vennin, Bernard Claverie</td>
+			<td>Description ....................</td>
+			<td>524 Ko</td>
+			<td width=10% class="text-center">
+			<a href="downloads/AHFE.pdf"><img src="images/upload.png" alt="7th slide" width=30%></a>
+			</td>
+	
+		</tr>
+		<tr>
+			<td>Supporting situation awareness on the move - the role of technology for spatial orientation in the field</td>
+			<td>Björn J.E. Johansson, Charlotte Hellgren, Per-Anders Oskarsson, Jonathan Svensson</td>
+			<td>Description ....................</td>
+			<td>524 Ko</td>
+			<td width=10% class="text-center">
+			<a href="downloads/SupportingSAonTheMove.pdf"><img src="images/upload.png" alt="7th slide" width=30%></a>
+			</td>
+	
+		</tr>
+</table>
 		</div>
 		</div>
 

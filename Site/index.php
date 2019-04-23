@@ -22,7 +22,7 @@ require_once "includes/head.php";
       <img class="d-block w-100" src="images/expe1.jpg" alt="Third slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="images/Mateo.PNG" alt="4th slide">
+    <video src="images/V2.mp4" controls autoplay loop poster="images/V2.mp4" preload="auto" width="74%"></video>
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -45,14 +45,17 @@ require_once "includes/head.php";
 <br/>
 
 <div class="container">
-<div class="jumbotron jumbotron-fluid" style="background:linear-gradient(90deg, white, 95%, transparent)">
+
+<a href="PdCdS.php">
+<div class="jumbotron jumbotron-fluid home">
   <div class="container">
-    <h1><a href="PdCdS.php" class="left">Le Partage de Conscience de Situation</a></h1>
+    <h1 class="left">Le Partage de Conscience de Situation</h1>
     <p class="lead"> Comment définir le Partage de Conscience de Situation ? Quelles sont les études déjà réalisées sur le sujet ?</p>
   </div>
 </div>
+</a>
 
-<div class="jumbotron jumbotron-fluid" style="background:linear-gradient(90deg, transparent 0%, white 5%)">
+<div class="jumbotron jumbotron-fluid home">
   <div class="container right">
     <h1><a href="notreExpe.php" class="right">Notre Expérience</a></h1>
     <p class="left"><div class="content">Le principe de l'expérience est simple : un commandant au poste de commande doit guider un astronaute aux commandes d'un rover
@@ -61,21 +64,21 @@ require_once "includes/head.php";
   </div>
 </div>
 
-<div class="jumbotron jumbotron-fluid" style="background:linear-gradient(90deg, white, 95%, transparent)">
+<div class="jumbotron jumbotron-fluid home">
   <div class="container">
     <h1><a href="Analyses&Resultats.php" class="left">Anlayses & Résultats</a></h1>
     <p class="lead">Une analyse détaillées des réponses au questionnaire post-expérimental rempli par les participants à permit de montrer ...</p>
   </div>
 </div>
 
-<div class="jumbotron jumbotron-fluid" style="background:linear-gradient(90deg, transparent 0%,  white 5%)">
+<div class="jumbotron jumbotron-fluid home">
   <div class="container right">
     <h1><a href="GESP.php" class="right">Gestion de Projet</a></h1>
     <p class="content">Pour gérer se projet d'une durée de 9 mois nous avons, dès le commencement, établit un diagramme de Gantt sur lequel ont s'est appuyé toute l'année... </p>
   </div>
 </div>
 
-<div class="jumbotron jumbotron-fluid" style="background:linear-gradient(90deg, white, 95%, transparent)">
+<div class="jumbotron jumbotron-fluid home">
   <div class="container">
     <h1><a href="AllerPlusLoin.php" class="left">Aller + loin</a></h1>
     <p class="lead">Pour pousser l'expérience plus loin, il serait intéressant de regarder l'impact d'un échange dans lequel les participants n'hésitent pas à exprimer... </p>

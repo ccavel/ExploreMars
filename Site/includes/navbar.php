@@ -22,7 +22,7 @@
         <a class="nav-link" href="notreExpe.php">Notre Expérience</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="Analyses&Resultats.php">Analyses & Résultats</a>
+        <a class="nav-link" href="Analyses_Resultats.php">Analyses & Résultats</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="GESP.php">Gestion de Projet</a>

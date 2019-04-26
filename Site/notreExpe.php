@@ -23,15 +23,17 @@ require_once "includes/navbar.php";
     <h1 class="left text-center">Notre Expérience</h1>
     <p class="lead text-justify">
       <br/>
-Deux individus vont devoir collaborer pour récupérer une roche particulière dissimulée dans une simulation martienne. <br/>
+Deux individus doivent collaborer pour récupérer une roche particulière dissimulée dans une simulation 3D du paysage martien. <br/>
 CapCom connaît l'emplacement de la roche grâce à une carte 2D en papier de la simulation sur laquelle est reportée la
-localisation précise de la roche. L'Astronaute pilote un rover qui se déplace dans la simulation. Il a également à sa
-disposition une carte papier mais ne connait pas l'emplacement de la roche. Les deux coéquipiers 
-ne peuvent pas se voir. En n'utilisant que sa voix, CapCom doit guider l'Astro jusqu'à la roche dans un temps imparti
-de 15min. Toutes les 45s, la simulation se met en pause, les 2 individus ne doivent pas communiquer et reportent sur leur
+localisation précise de la roche. Astro pilote un rover qui se déplace dans la simulation. Il a également à sa
+disposition une carte papier mais ne connait pas l'emplacement de la roche. Les deux coéquipiers ne peuvent pas se voir. 
+En n'utilisant que sa voix, CapCom doit guider l'Astro jusqu'à la roche dans un temps imparti de 15min. 
+Toutes les 45s, la simulation se met en pause, les 2 individus ne doivent plus communiquer et reporter sur leur
 carte respective la localisation suposée du rover à cet instant (X1, X2, ...). L'expérience se termine lorsque l'Astro a 
 trouvé la roche ou que le temps est écoulé. Ils vont alors immédiatement, sans avoir échangé entre eux, remplir 
-indivduellement un questionnaire sur leur ressenti de l'expérience. </p>
+individuellement un questionnaire sur leur ressenti de l'expérience. 
+<a href="downloads/Protocole.pdf"><img src="images/fichier.png"  alt="Télécharger le Protocole" Title="Télécharger le Protocole" width=16px></a>
+</p>
 <br/>
 
 <div class="row">
@@ -77,22 +79,22 @@ indivduellement un questionnaire sur leur ressenti de l'expérience. </p>
 </table>
 </div>
 </div>
-<br/>
+<br/><br/><br/>
 <hr>
 <br/>
 
+    <h3 class="text-center">RECOLTE DES DONNEES :</h3>
+    <br/><br/>
 <div class="row">
-  <div class="col-xl-3">
-  <img src="images/carteAstro.jpg" alt="Expérience" width= 100% >
-  <img src="images/croix2.JPG" alt="croix" width= 100%>
-</div>
-<div class="col-xl-8">
+  <div class="col-xl-5">
+  <iframe frameborder="0" class="juxtapose" width="100%" height="500" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=10378b8a-685e-11e9-8106-0edaf8f81e27"></iframe></div>
+  <div class="col-xl-6">
     <div class="container">
-    <h3>RECOLTE DES DONNEES :</h3>
 <p class="lead text-justify"> 
-  D'après le traitement de la carte de l'Astro et du CapCom, nous pouvons faire apparaître les localisations du rover 
-à un instant t. Nous pouvons alors mesurer la distance entre 2 points à un instant t donné.
-Plus la distance est grande plus cela signifie que les 2 individus ne partageaient pas la même représentation de la situation. 
+A un instant donné, la localisation du rover relevée par l'Astro peut différer de celle relevée par CapCom. 
+Le traitement des cartes obtenues en fin d'expérience fait apparaître les différentes localisations du rover à un instant t (cf Figure à gauche). 
+Nous pouvons alors mesurer la distance entre 2 points à un instant t donné.
+Plus la distance est proche plus les 2 individus partageaient une représentation identique de la situation. 
 Nous pouvons également comparer respectivement les localisations de l'Astro et de Capcom avec la véritable localisation du 
 rover enregistrée par la simulation. On peut alors quantifier l'exactitude de la représentation de 
 la situation pour chacun des participants. </p>
@@ -101,25 +103,27 @@ la situation pour chacun des participants. </p>
 </div>
 
 
-<br/>
 <hr>
 <br/>
 <div class="container">
 <h3>LE RECRUTEMENT :</h3>
 <p class="lead text-justify"> 
- Nous avions prévu un plan de passation avec un questionnaire d'inscription envoyé 1 mois avant l'expérience.
-Ceci n'a pas fonctionné, en effet il est rare de savoir autant à l'avance ses disponibilités pour une expérience pouvant atteindre 
-45min. <br>
-C'est pourquoi nous avons opté majoritairement pour un recrutement à la sauvette. Nous nous sommes réservés des après-midis et 
-parfois des journées entières, selon nos disponibilités, pour aller à la rencontre des personnes afin de les inviter à
-  passer l'expérience immédiatement ou à nous rejoindre un peu plus tard dans la journée. Cette technique s'est révélée 
-  très efficace (en plus de participer au rayonnment de l'ENSC). Ainsi nous avons récruté des élèves de l'ENSC
-   mais également des élèves et du personnel de l'admnisitration de l'ENSCBP. <br>
-COOKIES </p>
+Nous avions prévu un plan de passation avec un questionnaire d'inscription envoyé 1 mois avant l'expérience qui n'a malheureusement pas eu les effets escomptés.
+En effet il est rare de savoir autant à l'avance ses disponibilités pour une expérience pouvant atteindre 45min donc il y a eu très peu d'inscrits. <br>
+C'est pourquoi nous avons opté majoritairement pour un recrutement à la sauvette. Nous avons réservés des après-midis et 
+parfois des journées entières pour aller à la rencontre des personnes (étudiants majoritairement) afin de les inviter à
+passer l'expérience immédiatement ou à nous rejoindre un peu plus tard dans la journée. Cette technique s'est révélée 
+très efficace (en plus de participer au rayonnement de l'ENSC). Ainsi nous avons pu faire passer des élèves de l'ENSC
+mais également des élèves et du personnel de l'admnisitration de l'ENSCBP. <br>
+</p>
+
 <br>
+<hr>
+<br/>
+
 <h3>LA PASSATION DE L'EXPERIENCE :</h3>
 <p class="lead text-justify">
-Un examinateur explique le déroulement de l'expérience aux 2 volontaires, assigne les rôles, répond aux questions et ouvre 
+Un examinateur explique le déroulement de l'expérience aux 2 volontaires, assigne les rôles, répond aux questions et lance 
 la simulation. Une fois les candidats prêts, il lance l'expérience ainsi que le chronomètre. Toutes les 45s, lorsque la simulation
 se met en pause, il rappel aux 2 candidats de reporter sur la carte une croix numéroté à l'endroit où ils pensent que le
 le rover se trouve sans communiquer avec leur partenaire. Après avoir vérifié que les 2 coéquipiers ont bien respecté la consigne, il signale

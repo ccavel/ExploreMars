@@ -29,7 +29,7 @@ footer {
 }
 
 .home{
-	background:rgba(255, 255, 255, 0.764)
+	background:rgba(255, 255, 255, 0.764);
 }
 .home:hover {
 	background: white;

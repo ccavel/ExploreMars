@@ -55,35 +55,43 @@ require_once "includes/head.php";
 </div>
 </a>
 
-<div class="jumbotron jumbotron-fluid home">
-  <div class="container right">
-    <h1><a href="notreExpe.php" class="right">Notre Expérience</a></h1>
-    <p class="left"><div class="content">Le principe de l'expérience est simple : un commandant doit guider un astronaute pilotant un rover
-      jusqu'à l'emplacement d'une roche particulière dans une simulation 3D du paysage martien</p>
-</div>
-  </div>
-</div>
-
+<a href="notreExpe.php">
 <div class="jumbotron jumbotron-fluid home">
   <div class="container">
-    <h1><a href="Analyses&Resultats.php" class="left">Anlayses & Résultats</a></h1>
-    <p class="lead">Une analyse détaillée des réponses au questionnaire post-expérimental rempli par les participants à permis de montrer ...</p>
+    <h1 class="right">Notre Expérience</h1>
+    <p class="content">Le principe de l'expérience est simple : un commandant doit guider un astronaute pilotant un rover dans une 
+    simulation 3D du paysage martien jusqu'à l'emplacement d'une roche particulière dans un temps imparti.</p>
+</div>
+  </div>
+  </a>
+
+<a href="Analyses&Resultats.php" >
+<div class="jumbotron jumbotron-fluid home">
+  <div class="container">
+    <h1 class="left">Anlayses & Résultats</h1>
+    <p class="lead">Une analyse détaillée des réponses au questionnaire post-expérimental rempli par les participants à permis de caractériser
+    les équipes ayant réussi la mission et celles qui ont échouées</p>
   </div>
 </div>
+</a>
 
+<a href="GESP.php" >
 <div class="jumbotron jumbotron-fluid home">
   <div class="container right">
-    <h1><a href="GESP.php" class="right">Gestion de Projet</a></h1>
+    <h1 class="right">Gestion de Projet</h1>
     <p class="content">Pour gérer se projet d'une durée de 9 mois nous avons, dès le commencement, établit un diagramme de Gantt sur lequel nous nous sommes appuyés toute l'année... </p>
   </div>
 </div>
+</a>
 
+<a href="AllerPlusLoin.php" >
 <div class="jumbotron jumbotron-fluid home">
   <div class="container">
-    <h1><a href="AllerPlusLoin.php" class="left">Aller + loin</a></h1>
+    <h1 class="left">Aller + loin</h1>
     <p class="lead">Pour pousser l'expérience plus loin, il serait intéressant de regarder l'impact d'un échange dans lequel les participants n'hésitent pas à exprimer... </p>
   </div>
 </div>
+</a>
 
 </div>
  <?php require_once "includes/footer.php"; ?>

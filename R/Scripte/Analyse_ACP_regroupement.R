@@ -1,4 +1,4 @@
-#Ce script nécessite l'utilisation préalable de PreparationVariables.R ANALYSE_ACP1.R et Analyse_CoustOfVar
+#Ce script nécessite l'utilisation préalable de PreparationVariables.R ANALYSE_ACP1.R et Analyse_ClustOfVar
 #Ce script essaye des regroupements de variables proposés par ClustOfVar qui permettraient d'établir un profil expliquant l'echec ou la réussite.
 
 # On travail d'abord sur une séparation basée sur cet arbre : 
@@ -66,9 +66,9 @@ plot(tree)
   #On remarque que seuls les trois premières dimensions sont pertinentes selon le critère de Keiser ???
   
   
-  round(res.pca$eig,digit=3)
-  res.pca.tri2$ind$contrib.pct
-  res.pca.tri2$quali$contrib.pct
+  round(res.pca.tri3$eig,digit=3)
+  res.pca.tri3$ind$contrib.pct
+  res.pca.tri3$quali$contrib.pct
   
   #mpca<-cbind(m0,res.pca$ind$contrib.pct[,1:3])
   

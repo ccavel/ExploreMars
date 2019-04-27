@@ -1,7 +1,7 @@
 #Ce script nécessite l'utilisation préalable de PreparationVariables.R
 #Ici sont effectuées des ACP sur une série de variables qualitatives et quantitatives.
 
-res.pca<-PCAmix(X.quali = m0[,c("Genre","BonneCommunication","EquilibreParole","EquilibreQuestions","BonneEquipe","HabitudeGuider","HabitudeEtreGuider","SensOrientation","GeneVisionCoeq","Module","TrouveRoche")],
+res.pca<-PCAmix(X.quali = m0[,c("Genre","BonneCommunication","EquilibreParole","EquilibreQuestions","BonneEquipe","HabitudeGuider","HabitudeEtreGuider","SensOrientation","GeneVisionCoeq","Module")],
                 X.quanti = m0[,c("DifficulteTrouverRoche","PerformancePerso","PerformanceCoeq","PdCs")],rename.level=TRUE)
 
 #Informations sur les dimentions
@@ -21,6 +21,9 @@ res.pca$quali$contrib.pct
 plot(res.pca, axes=c(1,2),choice = "ind", coloring.ind=m0$TrouveRoche)
 plot(res.pca, axes=c(1,3),choice = "ind", coloring.ind=m0$TrouveRoche)
 plot(res.pca, axes=c(1,4),choice = "ind", coloring.ind=m0$TrouveRoche)
+plot(res.pca, axes=c(2,3),choice = "ind", coloring.ind=m0$TrouveRoche)
+plot(res.pca, axes=c(4,3),choice = "ind", coloring.ind=m0$TrouveRoche)
+plot(res.pca, axes=c(4,2),choice = "ind", coloring.ind=m0$TrouveRoche)
 
 plot(res.pca, axes=c(1,2),choice = "cor")
 plot(res.pca, axes=c(1,2),choice = "levels")

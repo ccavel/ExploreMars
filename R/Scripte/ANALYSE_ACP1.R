@@ -1,10 +1,11 @@
 #Ce script nécessite l'utilisation préalable de PreparationVariables.R
 #Ici sont effectuées des ACP sur une série de variables qualitatives et quantitatives.
 
+#On effectue une ACP sur toutes les variables
 res.pca<-PCAmix(X.quali = m0[,c("Genre","BonneCommunication","EquilibreParole","EquilibreQuestions","BonneEquipe","HabitudeGuider","HabitudeEtreGuider","SensOrientation","GeneVisionCoeq","Module")],
                 X.quanti = m0[,c("DifficulteTrouverRoche","PerformancePerso","PerformanceCoeq","PdCs")],rename.level=TRUE)
 
-#Informations sur les dimentions
+#Informations sur les dimentions et les contibutions
 barplot(res.pca$eig[,1],main="Eigvalues",names.arg = 1:nrow(res.pca$eig))
 abline(h=1,col=2,lwd=2)
 

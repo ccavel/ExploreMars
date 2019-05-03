@@ -2,7 +2,7 @@
 # Pour les variables qualitatives, barplots
 # Pour les variables quantitatives, boxplots
 
-par(mfrow=c(2,2))
+par(mfrow=c(1,2))
 
 # Réussite et echec
   # Qualitatif
@@ -25,10 +25,10 @@ par(mfrow=c(2,2))
     rm(i,j,valeur, vectLabel,vectValeur)
   # Quantitatif
     for (i in c("HabitudeTravaillerEnsemble","PerformancePerso","PerformanceCoeq","PdCs")){
-      boxplot(m0[,i], main=paste(i,", Echec"), ylim=c(1,5))
+      boxplot(m0[,i], main=paste(i,", Réussite et Echec"), ylim=c(1,5))
     }
     rm(i)
-    boxplot(m0[,"DifficulteTrouverRoche"], main=paste("DifficulteTrouverRoche, Echec"), ylim=c(1,5))
+    boxplot(m0[,"DifficulteTrouverRoche"], main="DifficulteTrouverRoche, Réussite et Echec", ylim=c(1,4))
 
 
 # Reussite
@@ -47,15 +47,15 @@ par(mfrow=c(2,2))
       for (j in seq(1:length(vectValeur))){
         vectValeur[j] = vectValeur[j]/length(m0.reussite[,i])
       }
-      barplot(vectValeur, main=paste(i,", Réussite et Echec"), ylab="pourcentage", ylim=c(0:1), names.arg=vectLabel)
+      barplot(vectValeur, main=paste(i,", Réussite"), ylab="pourcentage", ylim=c(0:1), names.arg=vectLabel)
     }
     rm(i,j,valeur, vectLabel,vectValeur)
   # Quantitatif
     for (i in c("HabitudeTravaillerEnsemble","PerformancePerso","PerformanceCoeq","PdCs")){
-      boxplot(m0.reussite[,i], main=paste(i,", Echec"), ylim=c(1,5))
+      boxplot(m0.reussite[,i], main=paste(i,", Reussite"), ylim=c(1,5))
     }
     rm(i)
-    boxplot(m0.reussite[,"DifficulteTrouverRoche"], main=paste("DifficulteTrouverRoche, Echec"), ylim=c(1,5))
+    boxplot(m0.reussite[,"DifficulteTrouverRoche"], main="DifficulteTrouverRoche, Reussite", ylim=c(1,4))
 
 # Echec
   # Qualitatif
@@ -73,7 +73,7 @@ par(mfrow=c(2,2))
       for (j in seq(1:length(vectValeur))){
         vectValeur[j] = vectValeur[j]/length(m0.echecs[,i])
       }
-      barplot(vectValeur, main=paste(i,", Réussite et Echec"), ylab="pourcentage", ylim=c(0:1), names.arg=vectLabel)
+      barplot(vectValeur, main=paste(i,", Echec"), ylab="pourcentage", ylim=c(0:1), names.arg=vectLabel)
     }
     rm(i,j,valeur, vectLabel,vectValeur)
   # Quantitatif
@@ -81,7 +81,7 @@ par(mfrow=c(2,2))
       boxplot(m0.echecs[,i], main=paste(i,", Echec"), ylim=c(1,4))
     }
     rm(i)
-    boxplot(m0.echecs[,"DifficulteTrouverRoche"], main=paste("DifficulteTrouverRoche, Echec"), ylim=c(1,4))
+    boxplot(m0.echecs[,"DifficulteTrouverRoche"], main="DifficulteTrouverRoche, Echec", ylim=c(1,4))
 
   
     

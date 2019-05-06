@@ -32,7 +32,7 @@ par(mfrow=c(1,2))
     boxplot(m0[,"DifficulteTrouverRoche"], main=paste("DifficulteTrouverRoche, Echec"), ylim=c(1,4))
 =======
     boxplot(m0[,"DifficulteTrouverRoche"], main="DifficulteTrouverRoche, Réussite et Echec", ylim=c(1,4))
->>>>>>> master
+>>>>>>> 1a4a46e812024587322ccb1963a88f552c9cde1b
 
 
 # Reussite
@@ -63,7 +63,7 @@ par(mfrow=c(1,2))
     boxplot(m0.reussite[,"DifficulteTrouverRoche"], main=paste("DifficulteTrouverRoche, Echec"), ylim=c(1,4))
 =======
     boxplot(m0.reussite[,"DifficulteTrouverRoche"], main="DifficulteTrouverRoche, Reussite", ylim=c(1,4))
->>>>>>> master
+>>>>>>> 1a4a46e812024587322ccb1963a88f552c9cde1b
 
     
 # Echec

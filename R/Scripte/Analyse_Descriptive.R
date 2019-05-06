@@ -2,7 +2,7 @@
 # Pour les variables qualitatives, barplots
 # Pour les variables quantitatives, boxplots
 
-par(mfrow=c(2,2))
+par(mfrow=c(1,2))
 
 # Réussite et echec
   # Qualitatif
@@ -25,10 +25,14 @@ par(mfrow=c(2,2))
     rm(i,j,valeur, vectLabel,vectValeur)
   # Quantitatif
     for (i in c("HabitudeTravaillerEnsemble","PerformancePerso","PerformanceCoeq","PdCs")){
-      boxplot(m0[,i], main=paste(i,", Echec"), ylim=c(1,5))
+      boxplot(m0[,i], main=paste(i,", Réussite et Echec"), ylim=c(1,5))
     }
     rm(i)
+<<<<<<< HEAD
     boxplot(m0[,"DifficulteTrouverRoche"], main=paste("DifficulteTrouverRoche, Echec"), ylim=c(1,4))
+=======
+    boxplot(m0[,"DifficulteTrouverRoche"], main="DifficulteTrouverRoche, Réussite et Echec", ylim=c(1,4))
+>>>>>>> master
 
 
 # Reussite
@@ -52,10 +56,14 @@ par(mfrow=c(2,2))
     rm(i,j,valeur, vectLabel,vectValeur)
   # Quantitatif
     for (i in c("HabitudeTravaillerEnsemble","PerformancePerso","PerformanceCoeq","PdCs")){
-      boxplot(m0.reussite[,i], main=paste(i,", Echec"), ylim=c(1,5))
+      boxplot(m0.reussite[,i], main=paste(i,", Reussite"), ylim=c(1,5))
     }
     rm(i)
+<<<<<<< HEAD
     boxplot(m0.reussite[,"DifficulteTrouverRoche"], main=paste("DifficulteTrouverRoche, Echec"), ylim=c(1,4))
+=======
+    boxplot(m0.reussite[,"DifficulteTrouverRoche"], main="DifficulteTrouverRoche, Reussite", ylim=c(1,4))
+>>>>>>> master
 
     
 # Echec
@@ -82,7 +90,7 @@ par(mfrow=c(2,2))
       boxplot(m0.echecs[,i], main=paste(i,", Echec"), ylim=c(1,5))
     }
     rm(i)
-    boxplot(m0.echecs[,"DifficulteTrouverRoche"], main=paste("DifficulteTrouverRoche, Echec"), ylim=c(1,4))
+    boxplot(m0.echecs[,"DifficulteTrouverRoche"], main="DifficulteTrouverRoche, Echec", ylim=c(1,4))
 
 
 

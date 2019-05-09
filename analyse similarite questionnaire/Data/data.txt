@@ -20,15 +20,6 @@ Groupe	HabitudeTravaillerEnsemble	DifficulteTrouverRoche	QualificationTravailEqu
 28	1	1	LentementMaisVigilant,Efficace	1	1	1	1	0	1	0	1	476	OUI	59,92841331
 29	1	1	BonneAmbiance	1	1	1	1	0	1	1	1	627	OUI	67,24524926
 32	1	1	Stressant,Méthodique	0	1	1	1	0	1	1	0	755	OUI	104,7883253
-33	1	1	LentementMaisVigilant,Méthodique	0	1	1	1	1	0	0	1	1216	OUI	
-34	1	1	Frustrant,BonneAmbiance	1	1	1	0	1	0	0	1	922	OUI	
-35	0	1	LentementMaisVigilant	1	1	1	1	1	1	0	0	768	OUI	
-36	1	1	Chaotique	1	1	1	0	1	0	0	0	877	OUI	
-39	1	1	Chaotique,BonneAmbiance	0	1	1	0	0	1	0	1	597	OUI	
-40	1	1	Méthodique	1	1	1	0	0	1	0	1	552	OUI	
-41	1	1	Efficace,BonneAmbiance	1	1	1	0	0	1	1	1	493	OUI	
-														
-														
 2	1	1	LentementMaisVigilant	0	1	1	0	1	1	0	1	1172	NON	103,144457
 5	0	1	Frustrant,Dynamique	0	1	1	1	0	0	0	1	1053	NON	162,0723397
 6	1	1	BonneAmbiance,Méthodique	0	1	1	0	0	1	1	1	977	NON	238,2954786
@@ -37,4 +28,3 @@ Groupe	HabitudeTravaillerEnsemble	DifficulteTrouverRoche	QualificationTravailEqu
 13	1	1	BonneAmbiance	1	1	1	1	0	0	0	1	960	NON	138,9387415
 14	1	1	Chaotique	0	1	0	1	1	1	0	1	914	NON	179,3128959
 27	1	1	Chaotique,BonneAmbiance	0	1	0	1	1	1	1	1	907	NON	176,1327908
-38	1	1	Stressant	1	1	1	1	1	0	1	0	930	NON	

@@ -26,7 +26,11 @@ require_once "includes/navbar.php";
     on définit le Partage de Conscience de Situation comme étant le degré de similitude entre les représentations personnelles de situation que chacun se fait à un moment précis.
     <br/>
 <strong> Certes, mais concrètement ? </strong> <br/>
-DONNER UN EXEMPLE CONCRET  (aviation ou medecine) <br/>
+Dans un cockpit d'avion, le pilote et le copilote conduisent le même appareil au même endroit mais ils n'ont pas 
+accès aux mêmes informations et n'ont pas la même vision de la situation à un instant donné. On peut dire qu'ils ont 
+un bon partage de conscience de situation si les 2 personnes sont sur la même longueur d'onde, c'est-à-dire qu'il 
+ont la même représentation de la situation. Bien entendu, pour que l'avion rentre à bon bord, on cherche à ce que le 
+pilote et le copilote aient un partage de conscience optimal. <br/>
 <strong> Mais encore </strong> <br/>
 Il ne faut pas confondre le partage de conscience (shared situational awareness) 
 de situation avec la conscience d’une situation partagée (awareness of a shared situation). 
@@ -51,11 +55,11 @@ comprennent qu’ils sont dans une “situation partagée”.</p>
   <h1 class="left text-center">La Conscience de Situation (CS)</h1>
     <div class="container">
     <p class="lead text-justify">
-<strong>Définition :</strong><br/>
+<strong>Définition :</strong>
  "Prise d'information continue sur  un environnement ou un système  dynamique, l'intégration 
 de ces  informations  aux connaissances antérieures pour créer une image mentale cohérente et l'utilisation
 de cette image pour la perception, l'anticipation et les réponses à des évènements futurs"
-<br/>
+<br/><br/>
 La CS est rendue possible car les individus ont des ressources de traitement d’informations comme la mémoire,
  les automatismes et les mécanismes de traitement. Toutefois, les interfaces homme-machine, la complexité de 
  l’environnement, la pression et le stress agissent et ont un impact sur la prise de décision, la performance
@@ -79,23 +83,20 @@ La CS est un concept dynamique qui est limité par la capacité d’attention et
 
 
 
-<div class="row">
-  <div class="col-xl-8">
-<h1 class="left text-center">Les Précédentes Expériences dans le Domaine</h1>
+<h1 class="left text-center">Les Précédentes Expériences dans le Domaine  <img src="images/MS.jpg" alt="Mars Society" width=5%></h1>
     <p class="lead">
     Il s’agit d’un projet américain (dirigé par une équipe française) réalisé dans la base de simulation martienne de l’Utah par la 
     Mars Society. Un premier astronaute repère le chemin menant à une pierre particulière dans l’environnement. Une fois revenu, il 
     doit guider un 2 ème astronaute par talkie walkie jusqu’à  la pierre. Les deux astronautes doivent repérer la position de celle-ci,
-    à  intervalle  régulier  par  l’intermédiaire  d’une tablette. Cette première expérience est restée inachevée suite aux trop nombreux problèmes rencontrés parmi lesquels : <br/>
+    à  intervalle  régulier  par  l’intermédiaire  d’une tablette. Cette première expérience est restée inachevée suite aux trop nombreux problèmes rencontrés parmi lesquels :</p>
+    <div class="container"><p class="lead">
         ✶les talkie walkies ne captaient pas lorsque les 2 astronautes étaient séparés par un massif rocheux <br/>
         ✶la carte de la zone fournie aux astronautes était inadaptée (trop petite) <br/>
         ✶l’équipement de l’astronaute (gant, visière) rendait impossible la bonne utilisation de la tablette (reflet, manque de précision)<br/>
-
-Le projet a été abandonné pour être repris et réadapté à l’ENSC. Il s’agit désormais de mesurer le partage de CS sur une simulation.</p>
+    </p></div>
+    <p class="lead">Le projet a été abandonné pour être repris et réadapté à l’ENSC. Il s’agit désormais de mesurer le partage de CS sur une simulation.</p>
   </div>
-<div class="col text-center">
-  <br/> <br/> <br/> <br/><br/> <br/> <br/> <br/><br/> <br/> <br/> 
-<img src="images/MS.jpg" alt="Mars Society" width=70%>
+
 
 
 

@@ -22,127 +22,61 @@ require_once "includes/navbar.php";
   <div class="container">
     <h1 class="left text-center">Analyses & Résultats</h1>
     <p class="lead text-justify">
+
+			<br/><i>
+      On peut diviser l'ensemble des analyses réalisées en 2 phases d'analyses distinctes. En effet, nous avons dans un premier temps analyser
+			les résultats de l'expérience, c'est-à-dire l'analyses des chemins tracés comparé au chemin réel enregistrer par la simulation. Dans un second 
+			temps nous avons analyser les questionnaires post-expérimentaux dans l'optique de caractériser un profil type de "bonne" équipe.</i>
+      </p>
+			<br/>
+			<br/>
+			<h2> PHASE I : </h2>
+			<p class="lead text-justify">
+			<strong>But :</strong> Cette première étude a pour but de quantifier le Partage de Conscience de Situation entre les 2 individus d'un binôme
+			ayant réalisé l'expérience à travers les chemins tracés respectivement. On a cherché à comparé le distance entre les croix des individus indiquant 
+			la position du rover à l'instant t (similitude). Plus l'écart est grand et plus on admet que le partage de conscience de situation était mauvais. 
+			On a également comparé individuellement la croix reportées à l'instant t sur la carte avec la position exacte du rover dans la simulation au même 
+			instant (exactitude). On a donc pu observer la similarité moyenne de chaque groupe en fonction de leur performane temporelle ainsi que l'évolution 
+			de la similarité et de l'exactitude de la représentation des individus au cours de l'expérience.<br>
+			<div class="row">
+			<div class="col-xl-4">
+			<img src="images/CarteAnalyseDistance.PNG" alt="Carte montrant la distance entre les repères marqués par Astro et CapCom" title="Carte montrant la distance entre les repères marqués par Astro et CapCom" width= 100%>
+			</div>
+			<div class="col">
+			<img src="images/EvolutionSimilariteTemps.PNG" alt="Evolutionde la similarité et de l'Exactitude en fonction du temps" title="Evolutionde la similarité et de l'Exactitude en fonction du temps"  width= 100%>
+			</div>
+			</div>
+			<p class="lead text-justify">
+			Cette première phase à aboutit à la mise en forme de toutes les données quantitatives collectées qui ont servit de base de travail à Baptiste Prébot et à Coralie Vennin 
+			pour la rédaction d'un article sur notre expérience pour la conférence AHFE. <i>Lien pour télécharger l'article</i>
+			</p>
+			<br/>
+			<br/>
+			<br/>
+			 	<div class="text-center ">
+				<a href="Analyse1.php" class="btn bg-light" role="button" style="color:rgb(121, 0, 0)">En savoir plus </a>
+				</div>
+			</p>
+
+
+			<br/>
+			<br/>
       <br/>
+			<h2> PHASE II : </h2>
+			<p class="lead text-justify">
       <strong>But :</strong> On cherche ici a caractériser les groupes qui ont réussi la mission et ceux qui ont échoué en fonction des 
       réponses apportées au questionnaire post-expérimental. Plus concrètement, on cherche les variables qui ont une influence
       significatives au sein des groupes "Echec" et "Reussite", ce qui nous permettrait de dresser le profil type d'une équipe
       qui échoue (idem pour une équipe qui réussi).
       <br/>
-      <strong>Description des variables</strong>
+
       
  </p>
-<br/>
-<h3 class="text-center">COMPARAISON ECHEC/REUSSITE</h3>
-<br/>
-<table class="table table-danger">
-		<tr>
-			<th>Type</th><th>Nom</th><th>Description</th>
-		</tr>
-		<tr>
-			<td rowspan=5>Quantitatives</td>
-			<td>HabitudeTravaillerEnsemble</td>
-			<td>Question : A quel point avez vous l’habitude de travailler avec votre coéquipier ? <br/>
-Échelle : 1(jamais) à 5(très souvent)</td>	
-		</tr>
-
-    <tr>
-			<td>PerformancePerso</td>
-			<td>Question : Comment évalueriez-vous votre propre performance ? <br/>
-Échelle : 1(très faible) à 5(très grande)</td>	
-		</tr>
-
-    <tr>
-			<td>PerformanceCoeq</td>
-			<td>Question : Comment évalueriez-vous la performance de votre coéquipier ?<br/>
-Échelle : 1(très faible) à 5(très grande)</td>	
-		</tr>
-
-    <tr>
-			<td>PdsC</td>
-			<td>Question : Diriez-vous que vous et votre coéquipier aviez eu la même compréhension et la même perception des éléments de la mission ? <br/>
-Échelle : 1(Non, pas du tout) à 5(Oui, totalement)</td>	
-		</tr>
-
-    <tr>
-			<td>DifficulteTroverRoche</td>
-			<td>Question : Trouver la roche a été ... ?
-Échelle : 1(très facile) à 4(très difficile)</td>	
-		</tr>
-
-    <tr>
-    <td rowspan=11> Qualitative </td>
-    <td>Genre</td>
-			<td>Homme ou Femme</td>	
-		</tr>
-
-    <tr>
-			<td>BonneCommunication</td>
-			<td>Question : Selon vous, y a t-il eu une bonne communication au sein de l’équipe ?
-Réponse : Oui, Non, Je ne sais pas</td>	
-		</tr>
-
-    <tr>
-			<td>EquilibreParole</td>
-			<td>Question : Qui parlait le plus ?
-Réponse : Moi, Mon coéquipier, Les échanges étaient équitables</td>	
-		</tr>
-
-    <tr>
-			<td>EquilibreQuestions</td>
-			<td>Question : Qui posait le plus de questions ?
-Réponse : Moi, Mon coéquipier, Les échanges étaient équitables</td>	
-		</tr>
-
-    <tr>
-			<td>BonneEquipe</td>
-			<td>Question : Selon vous, avez-vous formé une bonne équipe ?
-Réponse : Oui, Non, Je ne sais pas</td>	
-		</tr>
-
-
-    <tr>
-			<td>HabitudeGuider</td>
-			<td>Question : Avez-vous l'habitude de guider quelqu'un ?
-Réponse : Oui, Non, de temps en temps</td>	
-		</tr>
-
-    <tr>
-			<td>HabitudeEtreGuider</td>
-			<td>Question : Avez-vous l'habitude d'être guidé par quelqu'un ? 
-Réponse : Oui, Non, de temps en temps</td>	
-		</tr>
-
-    <tr>
-			<td>SensOrientation</td>
-			<td>Question : Diriez-vous que vous avez un bon sens de l’orientation ? (en général)
-Réponse : Oui, Non, Je ne sais pas</td>	
-		</tr>
-
-    <tr>
-			<td>GeneVisionCoeq</td>
-			<td>Question : Avez-vous été gêné(e) par le fait de ne pas pouvoir voir votre coéquipier ?
-Réponse : Oui, Non, Un peu, Je ne sais pas</td>	
-		</tr>
-
-    <tr>
-			<td>Module</td>
-			<td>Module 1 : Les participants sont de même genre
-Module 2 : Les participants sont de genre opposé</td>	
-		</tr>
-
-
-    <tr>
-			<td>TrouveRoche</td>
-			<td>Oui : l’équipe a réussi la tâche
-Non : l’équipe n’a pas réussi la tâche</td>	
-		</tr>
-
-
-		</table> 
 
 <br/>
 <br/>
-<img src="images/Analyse1.JPG" alt="Expérience" width= 90% >
+      <strong>Description des variables</strong>
+			<img src="images/Analyse1.JPG" alt="Expérience" width= 90% >
 <br/>
 <div class="text-center"> Figure 1 : </div>
     

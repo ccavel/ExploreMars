@@ -21,7 +21,7 @@ require_once "includes/navbar.php";
     <h1 class="left text-center">Qu'est ce que c'est ?</h1>
     <div class="jumbotron jumbotron-fluid bg-white">
     <div class="container">
-    <p class="lead"> <strong>Définition : </strong>
+    <p class="lead text-justify"> <strong>Définition : </strong>
     lorsque plusieurs personnes traversent ensemblent une situation (des astronautes au cours d'une mission par exemple), 
     on définit le Partage de Conscience de Situation comme étant le degré de similitude entre les représentations personnelles de situation que chacun se fait à un moment précis.
     <br/>
@@ -72,29 +72,24 @@ La CS est un concept dynamique qui est limité par la capacité d’attention et
 </div>
 </div>
 </div>
-<br/><br/><br/><br/>
 
-
-
-
-
-
-
-
-
+<br/>
+<br/>
+<br/>
+<br/>
 
 <h1 class="left text-center">Les Précédentes Expériences dans le Domaine  <img src="images/MS.jpg" alt="Mars Society" width=5%></h1>
-    <p class="lead">
+    <p class="lead text-justify">
     Il s’agit d’un projet américain (dirigé par une équipe française) réalisé dans la base de simulation martienne de l’Utah par la 
     Mars Society. Un premier astronaute repère le chemin menant à une pierre particulière dans l’environnement. Une fois revenu, il 
     doit guider un 2 ème astronaute par talkie walkie jusqu’à  la pierre. Les deux astronautes doivent repérer la position de celle-ci,
     à  intervalle  régulier  par  l’intermédiaire  d’une tablette. Cette première expérience est restée inachevée suite aux trop nombreux problèmes rencontrés parmi lesquels :</p>
-    <div class="container"><p class="lead">
+    <div class="container"><p class="lead text-justify">
         ✶les talkie walkies ne captaient pas lorsque les 2 astronautes étaient séparés par un massif rocheux <br/>
         ✶la carte de la zone fournie aux astronautes était inadaptée (trop petite) <br/>
         ✶l’équipement de l’astronaute (gant, visière) rendait impossible la bonne utilisation de la tablette (reflet, manque de précision)<br/>
     </p></div>
-    <p class="lead">Le projet a été abandonné pour être repris et réadapté à l’ENSC. Il s’agit désormais de mesurer le partage de CS sur une simulation.</p>
+    <p class="lead text-justify">Le projet a été abandonné pour être repris et réadapté à l’ENSC. Il s’agit désormais de mesurer le partage de CS sur une simulation.</p>
   </div>
 
 

@@ -25,8 +25,8 @@ require_once "includes/navbar.php";
 
 			<br/><i>
       On peut diviser l'ensemble des analyses réalisées en 2 phases d'analyses distinctes. En effet, nous avons dans un premier temps analyser
-			les résultats de l'expérience, c'est-à-dire l'analyses des chemins tracés comparé au chemin réel enregistrer par la simulation. Dans un second 
-			temps nous avons analyser les questionnaires post-expérimentaux dans l'optique de caractériser un profil type de "bonne" équipe.</i>
+			les résultats de l'expérience : les chemins du rover tracés, comparé au chemin réel enregistré par la simulation. Dans un second 
+			temps nous avons analysé les questionnaires post-expérimentaux dans l'optique de caractériser un profil type de "bonne" et de "mauvaise" équipe.</i>
       </p>
 			<br/>
 			<br/>
@@ -69,6 +69,10 @@ require_once "includes/navbar.php";
       significatives au sein des groupes "Echec" et "Reussite", ce qui nous permettrait de dresser le profil type d'une équipe
       qui échoue (idem pour une équipe qui réussi).
       <br/>
+			<br/>
+			 	<div class="text-center ">
+				<a href="Analyse2.php" class="btn bg-light" role="button" style="color:rgb(121, 0, 0)">En savoir plus </a>
+				</div>
 
       
  </p>
@@ -76,7 +80,7 @@ require_once "includes/navbar.php";
 <br/>
 <br/>
       <strong>Description des variables</strong>
-			<img src="images/Analyse1.JPG" alt="Expérience" width= 90% >
+			<img src="images/Analyse1.JPG" alt="Expérience" width= 50% >
 <br/>
 <div class="text-center"> Figure 1 : </div>
     

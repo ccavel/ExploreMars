@@ -161,7 +161,7 @@ Non : l’équipe n’a pas réussi la tâche</td>
 
 <!--button-->
 <div class="text-center ">
-<a href="GESP.php" class="btn bg-light" role="button" style="color:rgb(121, 0, 0)">Voir la suite >> </a>
+<a href="Analyses_Resultats.php" class="btn bg-light" role="button" style="color:rgb(121, 0, 0)">> Analyses & Résultats <</a>
 </div>
 <br/>
 

@@ -1,6 +1,6 @@
 <html>
     
-<div class="container-fluid">   
+<div class="container-fluid"  style="width:100%">   
     <!-- Footer -->
     <footer class="footer bg-light footer-expand-xl" >
     <!-- Footer Links -->
@@ -11,7 +11,7 @@
     <!-- Grid column -->
     <div class="col-md-6 mt-md-0 mt-3">
       <!-- Content -->
-      <h5><img src="images/logo.JPG" class="logo" alt="exploreMars" width = 10% >ESCAPE TIME</h5>
+      <h5><img src="images/logo.png" class="logo" alt="exploreMars" width = 10% >ESCAPE TIME</h5>
     </div>
     
     <!-- Grid column -->

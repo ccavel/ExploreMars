@@ -6,7 +6,7 @@
 <nav class="navbar navbar-expand-xl navbar-light bg-light sticky-top"> 
   <!-- Brand -->
   <a class="navbar-brand" href="index.php">
-    <img src="images/logo.JPG" alt="Logo" style="width:60px;"> Explore Mars </a>
+    <img src="images/logo.png" alt="Logo" style="width:60px;"> Explore Mars </a>
 
   <!-- Toggler/collapsibe Button -->
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">

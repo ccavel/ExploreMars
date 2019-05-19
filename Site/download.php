@@ -60,7 +60,7 @@ require_once "includes/navbar.php";
 
 		<table class="table table-danger">
 		<tr>
-			<th>Articles</th><th>Auteurs</th><th>Description</th><th>Poids</th><th>Télécharger</th>		
+			<th>Article</th><th>Auteurs</th><th>Description</th><th>Poids</th><th>Télécharger</th>		
 		</tr>
 		<tr>
 			<td>Shared Spatial Situation Awareness as a Team Performance Indicator in Collaborative Spatial Orientation Task (AHFE)</td>

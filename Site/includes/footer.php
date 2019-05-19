@@ -11,13 +11,13 @@
     <!-- Grid column -->
     <div class="col-md-6 mt-md-0 mt-3">
       <!-- Content -->
-      <h5><img src="images/logo.png" class="logo" alt="exploreMars" width = 10% >ESCAPE TIME</h5>
+      <h5><a href="index.php"><img src="images/logo.png" class="logo" alt="exploreMars" width = 10% >Explore Mars</a></h5>
     </div>
     
     <!-- Grid column -->
     <hr class="clearfix w-100 d-md-none pb-3">
     <!-- Grid column -->
-    <div class="col-md-3 mb-md-0 mb-3">
+    <div class="col-md-3 mb-md-0 mb-3 lead">
         <!-- Links -->
         <a href="propos.php">A propos de nous</a> <br/>
         <a href="https://ensc.bordeaux-inp.fr/fr">A propos de l'ENSC</a><br/>
@@ -26,7 +26,7 @@
     <!-- Grid column -->
 
     <!-- Grid column -->
-      <div class="col-md-3 mb-md-0 mb-3">
+      <div class="col-md-3 mb-md-0 mb-3 lead">
         <!-- Réseaux Sociaux -->
         <h5 class="text-uppercase">Réseaux</h5>
 

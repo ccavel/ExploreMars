@@ -14,7 +14,7 @@ require_once "includes/navbar.php";
     <div class="row">
                 <div class="col">
                     <p class="text-right">
-                <img class="laTeam" src="images/???" title="Lolo" width=100px /> <br/> </p>
+                <img class="laTeam" src="images/???" title="photo" width=100px /> <br/> </p>
                 </div>
                 <div class="col">
                 <img class="caro" src="images/caro.JPG" title="Caro" width=100px /><br/>

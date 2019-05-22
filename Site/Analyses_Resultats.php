@@ -48,10 +48,9 @@ require_once "includes/navbar.php";
 			</div>
 			<p class="lead text-justify">
 			Cette première phase à aboutit à la mise en forme de toutes les données quantitatives collectées qui ont servit de base de travail à Baptiste Prébot et à Coralie Vennin 
-			pour la rédaction d'un article sur notre expérience pour la conférence AHFE. <i>Lien pour télécharger l'article</i>
+			pour la rédaction d'un article sur notre expérience pour la conférence AHFE.
+			<a href="downloads/AHFE.PNG"><img src="images/fichier.png"  alt="Télécharger l'article" Title="Télécharger l'article" width=16px></a>
 			</p>
-			<br/>
-			<br/>
 			<br/>
 			 	<div class="text-center ">
 				<a href="Analyse1.php" class="btn bg-light" role="button" style="color:rgb(121, 0, 0)">En savoir plus </a>
@@ -70,28 +69,14 @@ require_once "includes/navbar.php";
       qui échoue (idem pour une équipe qui réussi).
       <br/>
 			<br/>
+
+
 			 	<div class="text-center ">
 				<a href="Analyse2.php" class="btn bg-light" role="button" style="color:rgb(121, 0, 0)">En savoir plus </a>
 				</div>
 
       
  </p>
-
-<br/>
-<br/>
-      <strong>Description des variables</strong>
-			<img src="images/Analyse1.JPG" alt="Expérience" width= 50% >
-<br/>
-<div class="text-center"> Figure 1 : </div>
-    
-<p class="lead text-justify"> 
-<br/>BlaBlaBla ... </p>
-<br/>
-<hr>
-<br/>
-<h3>ACP(s) : </h3>
-<p class="lead text-justify"> 
-  Blablas... </p>
 <br>
 </div>
 </div>

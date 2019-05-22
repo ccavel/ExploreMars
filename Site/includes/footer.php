@@ -1,8 +1,8 @@
 <html>
     
-<div class="container-fluid"  style="width:100%">   
+<div class="container-fluid" width:100%>   
     <!-- Footer -->
-    <footer class="footer bg-light footer-expand-xl" >
+    <footer class="footer bg-light footer-expand-xl " >
     <!-- Footer Links -->
     <div class="container-fluid text-center text-md-left">
 <br/>

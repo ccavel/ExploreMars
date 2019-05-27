@@ -24,8 +24,8 @@ require_once "includes/navbar.php";
     <p class="lead text-justify">
 
 			<br/><i>
-      On peut diviser l'ensemble des analyses réalisées en 2 phases d'analyses distinctes. En effet, nous avons dans un premier temps analyser
-			les résultats de l'expérience : les chemins du rover tracés, comparé au chemin réel enregistré par la simulation. Dans un second 
+      On peut diviser l'ensemble des analyses réalisées en 2 phases d'analyses distinctes. En effet, nous avons dans un premier temps analysé
+			les résultats de l'expérience : les chemins du rover tracés, comparés au chemin réel enregistré par la simulation. Dans un second 
 			temps nous avons analysé les questionnaires post-expérimentaux dans l'optique de caractériser un profil type de "bonne" et de "mauvaise" équipe.</i>
       </p>
 			<br/>
@@ -35,7 +35,7 @@ require_once "includes/navbar.php";
 			<strong>But :</strong> Cette première étude a pour but de quantifier le Partage de Conscience de Situation entre les 2 individus d'un binôme
 			ayant réalisé l'expérience à travers les chemins tracés respectivement. On a cherché à comparé le distance entre les croix des individus indiquant 
 			la position du rover à l'instant t (similitude). Plus l'écart est grand et plus on admet que le partage de conscience de situation était mauvais. 
-			On a également comparé individuellement la croix reportées à l'instant t sur la carte avec la position exacte du rover dans la simulation au même 
+			On a également comparé individuellement la croix reportée à l'instant t sur la carte avec la position exacte du rover dans la simulation au même 
 			instant (exactitude). On a donc pu observer la similarité moyenne de chaque groupe en fonction de leur performane temporelle ainsi que l'évolution 
 			de la similarité et de l'exactitude de la représentation des individus au cours de l'expérience.<br>
 			<div class="row">
@@ -47,7 +47,7 @@ require_once "includes/navbar.php";
 			</div>
 			</div>
 			<p class="lead text-justify">
-			Cette première phase à aboutit à la mise en forme de toutes les données quantitatives collectées qui ont servit de base de travail à Baptiste Prébot et à Coralie Vennin 
+			Cette première phase a aboutit à la mise en forme de toutes les données quantitatives collectées qui ont servi de base de travail à Baptiste Prébot et à Coralie Vennin 
 			pour la rédaction d'un article sur notre expérience pour la conférence AHFE.
 			<a href="downloads/AHFE.PNG"><img src="images/fichier.png"  alt="Télécharger l'article" Title="Télécharger l'article" width=16px></a>
 			</p>

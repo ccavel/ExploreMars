@@ -28,14 +28,14 @@
     <!-- Grid column -->
       <div class="col-md-3 mb-md-0 mb-3 lead">
         <!-- Réseaux Sociaux -->
-        <h5 class="text-uppercase">Réseaux</h5>
+        <h5 class="text-uppercase">LIENS</h5>
 
 <ul class="list-unstyled">
 <li>
-    <a href="#!">
-      <img src="images/FB.png" class="iconeFB" alt="Facebook"width=10%>
-      <img src="images/twitter.jpg" class="iconeTwitter" alt="Twitter" width=10%>
-      <img src="images/googlePlus.png" class="iconeGoogle+" alt="Google +" width=10%>
+    <a href="https://ensc.bordeaux-inp.fr/fr" > <img src="https://upload.wikimedia.org/wikipedia/fr/thumb/7/7b/%C3%89cole_nationale_sup%C3%A9rieure_de_cognitique%2C_Logo_2014.PNG/250px-%C3%89cole_nationale_sup%C3%A9rieure_de_cognitique%2C_Logo_2014.PNG" class="ENSC" alt="ENSC" width=15%></a>
+    <a href="http://mdrs.marssociety.org/"> <img src="images/MS.jpg" alt="Mars Society" width=10%> </a>
+    <a href="https://oewf.org/en/analog-planetary-research/"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTNU06jcpJzW0K37jQI7gLKeHQgilQkV8BlwfhyEoI5X1JGYUD" class="Austrian Space Forum" alt="Austrian Space Forum" width=12%></a>
+    <a href="http://www.marssociety.org/semi-finalists-selected-for-mars-colony-prize-competition/?fbclid=IwAR0KARmZ7X_ZfVaLZGVzlqebGzjOM-5vTEbZoDoxpPz-Px55SNl9G4_P0k4"> <img src="http://planete-mars.com/wp-content/uploads/2018/06/APM-Logo2018-alone-h120.png" Title="Concours Mars Society" alt="Concours Mars Society" width=10%></a>
      </a>
   </li>
 </ul>

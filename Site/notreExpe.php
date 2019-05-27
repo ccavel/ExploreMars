@@ -156,6 +156,7 @@ le questionnaire sur l'ordinateur.
 </div>
 </div>
 </div>
+</div>
 
 <!--button-->
 <div class="text-center ">

@@ -27,12 +27,10 @@ require_once "includes/navbar.php";
       réponses apportées au questionnaire post-expérimental. Plus concrètement, on cherche les variables qui ont une influence
       significatives au sein des groupes "Echec" et "Reussite", ce qui nous permettrait de dresser le profil type d'une équipe
       qui échoue (idem pour une équipe qui réussi).
-      <br/>
-      <strong>Description des variables</strong>
-      
+      <br/>      
  </p>
 <br/>
-<h3 class="text-center">COMPARAISON ECHEC/REUSSITE</h3>
+<h3 class="text-center">Description des variables</h3>
 <br/>
 <table class="table table-danger">
 		<tr>
@@ -41,7 +39,7 @@ require_once "includes/navbar.php";
 		<tr>
 			<td rowspan=5>Quantitatives</td>
 			<td>HabitudeTravaillerEnsemble</td>
-			<td>Question : A quel point avez-vous l’habitude de travailler avec votre coéquipier ? <br/>
+			<td>Question : A quel point avez vous l’habitude de travailler avec votre coéquipier ? <br/>
 Échelle : 1(jamais) à 5(très souvent)</td>	
 		</tr>
 
@@ -141,25 +139,28 @@ Non : l’équipe n’a pas réussi la tâche</td>
 		</table> 
 
 <br/>
-<br/>
 <p class="lead text-justify">
 Au début du projet, on ne pensait pas avoir à analyser le questionnaire post-expérimental. Il avait pour unique but 
 d’expliciter une anomalie dans les résultats sur les cartes. C’est pourquoi son analyse s’est révélée particulièrement 
 difficile, l’ensemble des questions étant totalement biaisées par la réussite ou non de l’expérience. 
 <br/>
-Nous avons néanmoins testé plusieurs points de vue d’analyse dans le but de dégager un profil type d’équipe :<br/>
+Nous avons néanmoins testé plusieurs points de vue d’analyse dans le but de dégager un profil type d’équipe :<br/><br/>
 <ul class="lead text-justify">
-<li> <h3>Analyse descriptive </h3>des données où l’on comparait les résultats des équipes qui ont réussies et elles qui
+<li> <span class="big">Analyse descriptive </span> des données où l’on comparait les résultats des équipes qui ont réussies et elles qui
 ont échouées pour chaque variable étudiées. Par exemple, on peut voir ci-dessous un histogramme représentant les 
 réponses à la question “Pensez-vous avoir formé un bonne équipe”. On voit bien que les groupes ayant réussi répondent 
 majoritairement OUI tandis qu’il n’y a pas de réponse privilégiée entre les groupes ayant échoué. </li>
-<img src="images/Analyse1.JPG" alt="Expérience" width= 50% >
-<li> <h3>Analyse par classification hiérarchique.</h3> Chaque variable est sur une branche de l’arbre. Plus les variables sont 
+<div class="text-center"><img src="images/stat1.PNG" alt="Expérience" width= 60% ></div><br/>
+<li> <span class="big">Analyse par classification hiérarchique.</span> Chaque variable est sur une branche de l’arbre. Plus les variables sont 
 proche sur une même branche et plus elles sont corrélées (ou anti-corrélée). De la même manière, on a comparé les 
 arbres en séparant les groupes ayant réussis de ceux ayant échoué. </li>
-<li> Analyse en composante principale (ACP) </li>
+<div class="text-center"><img src="images/tree.png" alt="clustervar" width= 50% ></div><br/>
+<li> <span class="big"> Analyse en composante principale (ACP)</span> </li>
+<div class="text-center"><img src="images/ACP.png" alt="ACP" width= 50% ></div><br/>
 </ul>
 <br/>  
+<br/><br/>
+<span class="big">Conclusion d'analyse :</span> 
 </div>
 </div>
 </div>

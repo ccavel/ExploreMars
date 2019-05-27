@@ -54,12 +54,8 @@ require_once "includes/navbar.php";
       </ul>
  </p>
 <br/>
-
 <br/>
-
 <br/>
-
-    
 
 <br>
 </div>

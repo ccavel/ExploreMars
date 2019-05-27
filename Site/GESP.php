@@ -90,10 +90,16 @@ require_once "includes/navbar.php";
       <br/>
 
     <h3 class="text-center">MATRICE DES RISQUES</h3>
+<div><img src="images/risques.png" alt="Matrice des risques" width=100%></div>
+</div>
+</div>
+</div>
 
+<!--button-->
+<div class="text-center ">
+<a href="AllerPlusLoin.php" class="btn bg-light" role="button" style="color:rgb(121, 0, 0)">Voir la suite >> </a>
 </div>
-</div>
-</div>
+<br/>
 
 </body>
  <?php require_once "includes/footer.php"; ?>

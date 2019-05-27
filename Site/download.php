@@ -109,9 +109,9 @@ require_once "includes/navbar.php";
 		</tr>
 
 </table>
-<p class="lead">
+<p class="lead text-center">
 Un dossier contenant la simulation sous forme d’exécutable Unity et le logiciel de pointage de carte a été remis au client 
-et au tuteur et ne sera pas publié ici pour des raisons de confidentialités.
+et au tuteur. Il ne sera pas publié ici pour des raisons de confidentialités.
 </p>
 		</div>
 		</div>

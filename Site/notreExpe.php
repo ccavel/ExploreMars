@@ -38,7 +38,7 @@ individuellement un questionnaire sur leur ressenti de l'expérience.
 
 <div class="row">
   <div class="col">
-    <img src="images/expe1.jpg" alt="Expérience" width=100%>
+    <img src="images/expe1Bis.jpg" alt="Expérience" width=100%>
   </div>
   <div class="col-xl-5">
 <table class="table1">

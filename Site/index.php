@@ -4,7 +4,7 @@ require_once "includes/head.php";
 
 <html>
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
+  <ol class="carousel-indicators"> 
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
@@ -16,13 +16,13 @@ require_once "includes/head.php";
       <img class="d-block w-100" src="images/badass.jpg" alt="First slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="images/team.jpg" alt="Second slide">
+      <img class="d-block w-100" src="images/team.JPG" alt="Second slide">
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" src="images/expe1.jpg" alt="Third slide">
     </div>
-    <div class="carousel-item">
-    <video src="images/V2.mp4" controls autoplay loop poster="images/V2.mp4" preload="auto" width="74%"></video>
+    <div class="carousel-item text-center">
+    <video src="images/V2.mp4" controls autoplay loop poster="images/V2.mp4" preload="auto" width="75%"></video>
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

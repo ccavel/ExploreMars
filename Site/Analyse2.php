@@ -142,19 +142,24 @@ Non : l’équipe n’a pas réussi la tâche</td>
 
 <br/>
 <br/>
-<img src="images/Analyse1.JPG" alt="Expérience" width= 90% >
+<p class="lead text-justify">
+Au début du projet, on ne pensait pas avoir à analyser le questionnaire post-expérimental. Il avait pour unique but 
+d’expliciter une anomalie dans les résultats sur les cartes. C’est pourquoi son analyse s’est révélée particulièrement 
+difficile, l’ensemble des questions étant totalement biaisées par la réussite ou non de l’expérience. 
 <br/>
-<div class="text-center"> Figure 1 : </div>
-    
-<p class="lead text-justify"> 
-<br/>BlaBlaBla ... </p>
-<br/>
-<hr>
-<br/>
-<h3>ACP(s) : </h3>
-<p class="lead text-justify"> 
-  Blablas... </p>
-<br>
+Nous avons néanmoins testé plusieurs points de vue d’analyse dans le but de dégager un profil type d’équipe :<br/>
+<ul class="lead text-justify">
+<li> <h3>Analyse descriptive </h3>des données où l’on comparait les résultats des équipes qui ont réussies et elles qui
+ont échouées pour chaque variable étudiées. Par exemple, on peut voir ci-dessous un histogramme représentant les 
+réponses à la question “Pensez-vous avoir formé un bonne équipe”. On voit bien que les groupes ayant réussi répondent 
+majoritairement OUI tandis qu’il n’y a pas de réponse privilégiée entre les groupes ayant échoué. </li>
+<img src="images/Analyse1.JPG" alt="Expérience" width= 50% >
+<li> <h3>Analyse par classification hiérarchique.</h3> Chaque variable est sur une branche de l’arbre. Plus les variables sont 
+proche sur une même branche et plus elles sont corrélées (ou anti-corrélée). De la même manière, on a comparé les 
+arbres en séparant les groupes ayant réussis de ceux ayant échoué. </li>
+<li> Analyse en composante principale (ACP) </li>
+</ul>
+<br/>  
 </div>
 </div>
 </div>

@@ -39,7 +39,7 @@ require_once "includes/navbar.php";
 		<tr>
 			<td>Protocole</td>
 			<td>Document détaillant le protocole (matériel, déroulement) de l'expérience effectuée</td>
-			<td>0,2 Mo</td>
+			<td>0,1 Mo</td>
 			<td width=10% class="text-center">
 			<a  href="downloads/Protocole.pdf"><img src="images/upload.png" alt="7th slide" width=30%></a>
 			</td>				
@@ -48,6 +48,14 @@ require_once "includes/navbar.php";
 		<td>Questionnaire</td>
 			<td>Questionnaire post-expérimental rempli online par chacun des participants et complété par leur(s) examinateur/trice(s)</td>
 			<td>0,2 Mo</td>
+			<td width=10% class="text-center">
+			<a href="downloads/Questionnaire.pdf"><img src="images/upload.png" alt="7th slide" width=30%></a>
+			</td>				
+		</tr>
+		<tr>
+		<td>Données brutes</td>
+			<td>Dossier contenant toutes les données brutes récoltées post-expérience</td>
+			<td>37000 Mo</td>
 			<td width=10% class="text-center">
 			<a href="downloads/Questionnaire.pdf"><img src="images/upload.png" alt="7th slide" width=30%></a>
 			</td>				
@@ -73,6 +81,15 @@ require_once "includes/navbar.php";
 	
 		</tr>
 		<tr>
+			<td>Notre Article </td>
+			<td>Laetitia Calice, Caroline Cavel, Adrien Leduque, Matéo Mahaut, Baptiste Prébot, Jean-Marc Salotti</td>
+			<td>Description ....................</td>
+			<td>524 Ko</td>
+			<td width=10% class="text-center">
+			<a href="downloads/.....pdf"><img src="images/upload.png" alt="7th slide" width=30%></a>
+			</td>
+		</tr>
+		<tr>
 			<td>Supporting situation awareness on the move - the role of technology for spatial orientation in the field</td>
 			<td>Björn J.E. Johansson, Charlotte Hellgren, Per-Anders Oskarsson, Jonathan Svensson</td>
 			<td>Description ....................</td>
@@ -80,9 +97,22 @@ require_once "includes/navbar.php";
 			<td width=10% class="text-center">
 			<a href="downloads/SupportingSAonTheMove.pdf"><img src="images/upload.png" alt="7th slide" width=30%></a>
 			</td>
-	
 		</tr>
+		<tr>
+			<td>Supporting situation awareness on the move - the role of technology for spatial orientation in the field</td>
+			<td>Björn J.E. Johansson, Charlotte Hellgren, Per-Anders Oskarsson, Jonathan Svensson</td>
+			<td>Description ....................</td>
+			<td>524 Ko</td>
+			<td width=10% class="text-center">
+			<a href="downloads/SupportingSAonTheMove.pdf"><img src="images/upload.png" alt="7th slide" width=30%></a>
+			</td>
+		</tr>
+
 </table>
+<p class="lead">
+Un dossier contenant la simulation sous forme d’exécutable Unity et le logiciel de pointage de carte a été remis au client 
+et au tuteur et ne sera pas publié ici pour des raisons de confidentialités.
+</p>
 		</div>
 		</div>
 

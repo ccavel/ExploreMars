@@ -16,7 +16,13 @@ require_once "includes/navbar.php";
 <div class="jumbotron jumbotron-fluid bg-white" style="padding:10px">
   <div class="container">
     <p class="lead text-justify">
-    Blabla rédigé dans la dernière partie de l'article
+      Gestion de configuration : Afin de faciliter la reprise de ce projet, nous avons mis à jour le cahier des charge, le protocol, et créé un document qui prend en compte nos démarches, réflexions, les problèmes que nous avons rencontré et comment nous les avons surmonté, et les limites de nos démarches.
+      <br/> 
+      Ce projet peut servir de base pour continuer ... 
+      Parler de Israël
+      De Mars Society et la victoire Salotti
+      des cookies.
+      Have fun :)
     </p>
 </div> </div>
 

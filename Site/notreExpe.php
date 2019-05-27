@@ -146,7 +146,7 @@ le questionnaire sur l'ordinateur.
   <div class="container">
     <p>
       <p class="giant text-center">
-        76 <span class="lead" style="text-color: black"> personnes recrutées </span>
+        82 <span class="lead" style="text-color: black"> personnes recrutées </span>
     </p>
     
   </div>

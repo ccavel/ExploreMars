@@ -65,7 +65,7 @@ require_once "includes/head.php";
   </div>
   </a>
 
-<a href="Analyses&Resultats.php" >
+<a href="Analyses_Resultats.php" >
 <div class="jumbotron jumbotron-fluid home">
   <div class="container">
     <h1 class="left">Anlayses & Résultats</h1>

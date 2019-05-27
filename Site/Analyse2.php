@@ -41,7 +41,7 @@ require_once "includes/navbar.php";
 		<tr>
 			<td rowspan=5>Quantitatives</td>
 			<td>HabitudeTravaillerEnsemble</td>
-			<td>Question : A quel point avez vous l’habitude de travailler avec votre coéquipier ? <br/>
+			<td>Question : A quel point avez-vous l’habitude de travailler avec votre coéquipier ? <br/>
 Échelle : 1(jamais) à 5(très souvent)</td>	
 		</tr>
 

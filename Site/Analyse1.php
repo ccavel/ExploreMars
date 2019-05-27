@@ -24,23 +24,23 @@ require_once "includes/navbar.php";
     <p class="lead text-justify">
       <br/>
       <strong>En détail : </strong> 
-      <br/>Dans cet analyse nous avons porté une attention très particulière au positionnement des croix, entre elles, 
+      <br/>Dans cette analyse nous avons porté une attention très particulière au positionnement des croix, entre elles, 
       et par rapport à la position réelle du rover dans la simulation. Il apparait des différences de performance quand
-      on découpe les partiipants par groupes en fonction de la similitude de leur représentation (ie la proximité de 
+      on découpe les participants par groupes en fonction de la similitude de leur représentation (ie la proximité de 
       leurs croix entre elles) ou en fonction de l'exactitude de leur représentation (ie la proximité de leurs croix 
       avec la postion réelle).
       <br/><br/>
       <strong>Description des variables</strong>  
       <br/>
       Toutes les 15 secondes, la simulation notifie dans le fichier .txt exporté que le logiciel est en pause. C'est 
-      à ce moment que le participant doit indiquer par une croix l'endroit où il pense ^étre sur la croix. Un logiciel 
+      à ce moment que le participant doit indiquer par une croix l'endroit où il pense être sur la croix. Un logiciel 
       de pointage de scan permet ensuite de compenser les déformations et de les projeter sur un référentiel commun 
-      afin de pouvoir les comparer. Nous avons regroupé les coordonnés des positions réels, et les coordonnés indiqués
+      afin de pouvoir les comparer. Nous avons regroupé les coordonnées des positions réelles, et les coordonnées indiquées
       par les croix de chacun des membres des groupes. Il a ainsi été possible de faire des analyses reliant la 
       performance à l'appartenance aux groupes de bonne ou mauvaise exactitude, ces résultats ont mené à l'écriture 
       d'un article pour présenter ces résultats.
       <br/>
-      Cette analyse, et ces résultats finaux intéressants, ont été précédée d'une série de tentatives et d'hypothèses 
+      Cette analyse, et ces résultats finaux intéressants, ont été précédé d'une série de tentatives et d'hypothèses 
       qui se sont révélées n'amener aucun résultats, comme par exemple nos essais de comparaison de la distance entre 
       les croix d'une même équipe à une même étape à la performance globale de l'équipe. Nous listons ci-dessous une 
       liste non-exhaustive des hypothèse que nous avons du rejeter lors de l'analyse :

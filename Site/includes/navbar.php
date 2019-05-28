@@ -1,6 +1,5 @@
 <?php
-  include_once 'head.php';
-  include_once 'functions.php' ?>
+  include_once 'head.php';?>
 
 <html>
 <nav class="navbar navbar-expand-xl navbar-light bg-light sticky-top"> 

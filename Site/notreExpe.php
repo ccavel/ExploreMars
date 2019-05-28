@@ -1,5 +1,4 @@
 <?php
-require_once "includes/functions.php";
 require_once "includes/navbar.php"; 
 
 ?>
@@ -78,6 +77,11 @@ individuellement un questionnaire sur leur ressenti de l'expérience.
 </tbody>
 </table>
 </div>
+</div>
+<br/>
+<br/>
+<div class="text-center">
+<video src="images/V2.mp4" controls autoplay loop poster="images/V2.mp4" preload="auto" width="75%">
 </div>
 <br/><br/><br/>
 <hr>

@@ -1,5 +1,4 @@
 <?php
-require_once "includes/functions.php";
 require_once "includes/navbar.php"; 
 ?>
 
@@ -38,8 +37,13 @@ Le premier fait bien référence au fait qu’un groupe d'individus comprennent 
 situation de la même manière tandis que le deuxième implique l’idée que les individus 
 comprennent qu’ils sont dans une “situation partagée”.</p>
   </div>
+  <div class="text-center">
+<img src="images/image4.png" alt="Modèle Partage de Consicence de Situation">
+</div>
 </div>
 
+<br/>
+<br/>
 
 <div class="row">
   <div class="col-xl-3 col-sm-3 text-center">

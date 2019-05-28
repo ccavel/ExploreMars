@@ -62,15 +62,21 @@ require_once "includes/navbar.php";
 
     <h3 class="text-center">NOTRE ORGANISATION</h3>
       <p class=" lead text-justify">
-      Réunion hebdomadaire de l'équipe <br/>
-      Réunion toutes les 2 semaines minimum avec le client et le tuteur <br/>
-      Mise en commun des travaux sur Google Drive <br/>
-      Répartition des tâches :  <br/>
+      -<strong>Réunion</strong> toutes les 2 semaines minimum avec le client et le tuteur <br/>
+      -Mise en commun des travaux sur <strong>Google Drive et GitHub</strong><br/>
+      -Communication via <strong>Gmail et Google Agenda</strong> <br/>
 </p>
 
 <br/>
+<h3 class="text-center">LIVRABLES</h3>
+      <p class=" lead text-justify">
+      <div class="text-center"><img src="images/livrable01.PNG"  alt="Livrables semestre 1" Title="Livrables semestre 1" width=50%>
+      </div><br/>
+      <div class="text-center"><img src="images/livrable02.PNG"  alt="Livrables semestre 2" Title="Livrables semestre 2" width=50%>
+      </div>
 
-
+      </p>
+<br/>
 <h3 class="text-center">PLANNINGS
 <a href="downloads/GANTT.PNG"><img src="images/fichier.png"  alt="Télécharger le Diagramme" Title="Télécharger le Diagramme de Gantt" width=16px></a>
 </h3>

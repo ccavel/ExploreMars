@@ -46,6 +46,9 @@ require_once "includes/navbar.php";
       liste non-exhaustive des hypothèse que nous avons du rejeter lors de l'analyse :
       <ul class="lead">
         <li>Corrélation directe de la distance entre les croix (similitude) avec la performance</li>
+        <div class="text-center"><img src="images/graph1.PNG" alt="graph1" width=60%></div>
+        <br/>
+        <br/>
         <li>Corrélation moyenne de la distance entre les croix (similitude moyenne) avec la performance</li>
         <li>Corrélation directe de la distance entre la position réelle et la position perçue (exactitude) avec la performance</li>
         <li>Corrélation moyenne de la distance entre la position réelle et la position perçue (exactitude moyenne) avec la performance</li>

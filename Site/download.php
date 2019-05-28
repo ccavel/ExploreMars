@@ -22,7 +22,7 @@ require_once "includes/navbar.php";
 		<tr>
 			<td>Cahier des charges</td>
 			<td>Décrit les objectifs du premier semestre ainsi que les spécifications techniques du manuel utilisateur</td>
-			<td>524 Ko</td>
+			<td>0,5 Mo</td>
 			<td width=10% class="text-center">
 			<a href="downloads/CdC.pdf"><img src="images/upload.png" alt="7th slide" width=30%></a>
 			</td>
@@ -55,7 +55,7 @@ require_once "includes/navbar.php";
 		<tr>
 		<td>Données brutes</td>
 			<td>Dossier contenant toutes les données brutes récoltées post-expérience</td>
-			<td>37000 Mo</td>
+			<td>50 Mo</td>
 			<td width=10% class="text-center">
 			<a href="downloads/Questionnaire.pdf"><img src="images/upload.png" alt="7th slide" width=30%></a>
 			</td>				

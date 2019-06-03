@@ -42,7 +42,7 @@ require_once "includes/navbar.php";
 			<img src="images/CarteAnalyseDistance.PNG" alt="Carte montrant la distance entre les repères marqués par Astro et CapCom" title="Carte montrant la distance entre les repères marqués par Astro et CapCom" width= 100%>
 			</div>
 			<div class="col">
-			<img src="images/EvolutionSimilariteTemps.PNG" alt="Evolutionde la similarité et de l'Exactitude en fonction du temps" title="Evolutionde la similarité et de l'Exactitude en fonction du temps"  width= 100%>
+			<img src="images/EvolutionSimilariteTemps.PNG" alt="Evolution de la similarité et de l'Exactitude en fonction du temps" title="Evolution de la similarité et de l'Exactitude en fonction du temps"  width= 100%>
 			</div>
 			</div>
 			<p class="lead text-justify">
@@ -71,19 +71,23 @@ require_once "includes/navbar.php";
       <strong>But :</strong> On cherche ici a caractériser les groupes qui ont réussi la mission et ceux qui ont échoué en fonction des 
       réponses apportées au questionnaire post-expérimental. Plus concrètement, on cherche les variables qui ont une influence
       significatives au sein des groupes "Echec" et "Reussite", ce qui nous permettrait de dresser le profil type d'une équipe
-      qui échoue (idem pour une équipe qui réussi).
-			<br/><br/>
+      qui échoue (idem pour une équipe qui réussi).	</p>
+			<div class="col">
+			<img src="images/stat1.PNG" alt="" title="Réponse des participants à la question 'Pensez-vous avoir formé une bonne équipe ?' en fonction de la réussite ou non de la mission"  width= 90%>
+			</div>
+			<br/>
+			<p class="lead">
 			<span class="big">Conclusion d'analyse :</span> 
 			L'étude a confirmé que les équipes ayant échouées pensaient en moyenne être une mauvaise équipe, et inversement pour les équipes ayant réussi la mission.
 			
 
-
+			</p>
 			 	<div class="text-center ">
 				<a href="Analyse2.php" class="btn bg-light" role="button" style="color:rgb(121, 0, 0)">En savoir plus </a>
 				</div>
 
       
- </p>
+
 <br>
 </div>
 </div>

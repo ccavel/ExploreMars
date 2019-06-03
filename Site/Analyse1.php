@@ -41,7 +41,10 @@ require_once "includes/navbar.php";
       <br/>
       Cette analyse, et ces résultats finaux intéressants, ont été précédé d'une série de tentatives et d'hypothèses 
       qui se sont révélées n'amener aucun résultats, comme par exemple nos essais de comparaison de la distance entre 
-      les croix d'une même équipe à une même étape à la performance globale de l'équipe. Nous listons ci-dessous une 
+      les croix d'une même équipe à une même étape à la performance globale de l'équipe. 
+      <a href="downloads/tableur.xlsx"><img src="images/fichier.png"  Title="Accéder au traitement des données (Excel)" width=16px></a>
+      <br/>
+      Nous listons ci-dessous une 
       liste non-exhaustive des hypothèses que nous avons du rejeter lors de l'analyse :
       <ul class="lead">
         <li>Corrélation directe et moyenne de la distance entre les croix (similitude) avec la performance</li>

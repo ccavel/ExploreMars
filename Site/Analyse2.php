@@ -13,7 +13,7 @@ require_once "includes/navbar.php";
     <li class="breadcrumb-item"><a class="formerlink" href="index.php">Home</a></li>
     <li class="breadcrumb-item active" aria-current="page">Analyses & Résultats</li>
   </ol>
-</nav>
+</nav> 
 
 
 <div class="container">

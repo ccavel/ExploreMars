@@ -79,10 +79,12 @@ individuellement un questionnaire sur leur ressenti de l'expérience.
 </div>
 </div>
 <br/>
-<br/>
+<br/> 
 <div class="text-center">
-<video src="images/V2.mp4" controls autoplay loop poster="images/V2.mp4" preload="auto" width="75%">
+    <video src="images/V2.mp4" controls autoplay loop poster="images/V2.mp4" preload="auto" width="75%">
 </div>
+<p class="lead text-center">Vidéo de la simulation dans laquelle évolue Astro</p>
+
 <br/><br/><br/>
 <hr>
 <br/>

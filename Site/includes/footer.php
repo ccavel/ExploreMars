@@ -1,6 +1,5 @@
 <html>
-    
-<div class="container-fluid" width:100%>   
+
     <!-- Footer -->
     <footer class="footer bg-light footer-expand-xl " >
     <!-- Footer Links -->
@@ -50,6 +49,5 @@
 
 </footer>
 <!-- Footer --> 
-</div>
 </html>
 <?php include_once 'scripts.php'?>

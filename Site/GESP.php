@@ -95,7 +95,7 @@ require_once "includes/navbar.php";
       <br/>
 
     <h3 class="text-center">MATRICE DES RISQUES</h3>
-<div><img src="images/risques.png" alt="Matrice des risques" width=100%></div>
+<div class="text-center"><img src="images/risques.png" alt="Matrice des risques" width=80%></div>
 </div>
 </div>
 </div>

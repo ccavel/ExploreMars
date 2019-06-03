@@ -46,8 +46,14 @@ require_once "includes/navbar.php";
 			</div>
 			</div>
 			<p class="lead text-justify">
+			<br/>
+			<span class="big">Conclusion d'analyse :</span> 
+			L'utilisation de critères de spatialité (distances) permet de réaliser une évaluation quantitative du partage de conscience de situation. On observe 
+			notamment une corrélation positive entre les équipes ayant une plutôt bonne performance et leur partage effectif de conscience de situation, c'est-à-dire 
+			un binôme qui a en moyenne des écarts très faibles avec la réalité, soit une bonne exactitude.
+			<br/><br/>
 			Cette première phase à aboutit à la mise en forme de toutes les données quantitatives collectées qui ont servit de base de travail à Baptiste Prébot et à Coralie Vennin 
-			pour la rédaction d'un article sur notre expérience pour la conférence AHFE.
+			pour la rédaction d'un article destiné à la conférence AHFE intitulé <em>Shared Spatial Situation Awareness as a Team Performance Indicator in Collaborative Spatial Orientation Task</em>.
 			<a href="downloads/AHFE.PNG"><img src="images/fichier.png"  alt="Télécharger l'article" Title="Télécharger l'article" width=16px></a>
 			</p>
 			<br/>
@@ -66,8 +72,10 @@ require_once "includes/navbar.php";
       réponses apportées au questionnaire post-expérimental. Plus concrètement, on cherche les variables qui ont une influence
       significatives au sein des groupes "Echec" et "Reussite", ce qui nous permettrait de dresser le profil type d'une équipe
       qui échoue (idem pour une équipe qui réussi).
-      <br/>
-			<br/>
+			<br/><br/>
+			<span class="big">Conclusion d'analyse :</span> 
+			L'étude a confirmé que les équipes ayant échouées pensaient en moyenne être une mauvaise équipe, et inversement pour les équipes ayant réussi la mission.
+			
 
 
 			 	<div class="text-center ">

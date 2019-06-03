@@ -22,14 +22,14 @@ require_once "includes/navbar.php";
     <h1 class="left text-center">Analyses PHASE I</h1>
     <p class="lead text-justify">
       <br/>
-      <strong>En détail : </strong> 
+      <strong>En détail </strong> 
       <br/>Dans cette analyse nous avons porté une attention très particulière au positionnement des croix, entre elles, 
       et par rapport à la position réelle du rover dans la simulation. Il apparait des différences de performance quand
       on découpe les participants par groupes en fonction de la similitude de leur représentation (ie la proximité de 
       leurs croix entre elles) ou en fonction de l'exactitude de leur représentation (ie la proximité de leurs croix 
       avec la postion réelle).
       <br/><br/>
-      <strong>Description des variables</strong>  
+      <strong>Le procédé d'analyse</strong>  
       <br/>
       Toutes les 15 secondes, la simulation notifie dans le fichier .txt exporté que le logiciel est en pause. C'est 
       à ce moment que le participant doit indiquer par une croix l'endroit où il pense être sur la croix. Un logiciel 
@@ -44,12 +44,20 @@ require_once "includes/navbar.php";
       les croix d'une même équipe à une même étape à la performance globale de l'équipe. Nous listons ci-dessous une 
       liste non-exhaustive des hypothèse que nous avons du rejeter lors de l'analyse :
       <ul class="lead">
-        <li>Corrélation directe de la distance entre les croix (similitude) avec la performance</li>
-        <li>Corrélation moyenne de la distance entre les croix (similitude moyenne) avec la performance</li>
-        <li>Corrélation directe de la distance entre la position réelle et la position perçue (exactitude) avec la performance</li>
-        <li>Corrélation moyenne de la distance entre la position réelle et la position perçue (exactitude moyenne) avec la performance</li>
-        <li>identification de profils d'écarts entre les perception de localisation au cours du temps </li>
-        <li>identification de profils d'écarts à la réalité au cours du temps</li>
+        <li>Corrélation directe et moyenne de la distance entre les croix (similitude) avec la performance</li>
+        <div class="text-center"><img src="images/graphe1.PNG" alt="graph1" width=70%></div>
+        <br/>
+        <br/>
+        <li>Corrélation directe et moyenne de la distance entre la position réelle et la position perçue (exactitude) avec la performance</li>
+        <div class="text-center"><img src="images/graphe2.PNG" alt="graph2" width=70%></div>
+        <br/>
+        <br/>
+        <li>Identification de profils d'écarts à la réalité au cours du temps</li>
+        <div class="text-center"><img src="images/graphe3.PNG" alt="graph2" width=80%></div>
+        <br/>
+        <br/>
+        <li>Identification de profils d'écarts entre les perception de localisation au cours du temps </li>
+
       </ul>
  </p>
 <br/>

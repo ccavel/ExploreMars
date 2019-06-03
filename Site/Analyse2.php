@@ -26,6 +26,7 @@ require_once "includes/navbar.php";
       réponses apportées au questionnaire post-expérimental. Plus concrètement, on cherche les variables qui ont une influence
       significatives au sein des groupes "Echec" et "Reussite", ce qui nous permettrait de dresser le profil type d'une équipe
       qui échoue (idem pour une équipe qui réussi).
+			<a href="https://docs.google.com/forms/d/e/1FAIpQLSfEyqVYnAL97rY1LDiEKqnZfZoq7jw7s51pc_3r5liSUc8trw/viewform"><img src="images/fichier.png"  alt="Télécharger l'article" Title="Télécharger le questionnaire" width=16px></a>
       <br/>      
  </p>
 <br/>

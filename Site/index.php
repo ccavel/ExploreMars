@@ -16,7 +16,7 @@ require_once "includes/head.php";
       <img class="d-block w-100" src="images/badass.jpg" alt="First slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="images/team.JPG" alt="Second slide">
+      <img class="d-block w-100" src="images/team.jpg" alt="Second slide">
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" src="images/expe1.jpg" alt="Third slide">

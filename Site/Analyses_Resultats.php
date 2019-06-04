@@ -76,9 +76,9 @@ require_once "includes/navbar.php";
 			<img src="images/stat1.PNG" alt="" title="Réponse des participants à la question 'Pensez-vous avoir formé une bonne équipe ?' en fonction de la réussite ou non de la mission"  width= 90%>
 			</div>
 			<br/>
-			<p class="lead">
+			<p class="lead text-justify">
 			<span class="big">Conclusion d'analyse :</span> 
-			Contrairement à ce que nous ésperions montrer, nos analyses ne peuvent pas expliquer l'échec ou la réussite des équipes. Néanmoins, les méthodes d'analyses ont pu montrer que les participants ayant réussi à la tâche répondaient ensuite tous de la même manières aux questions sur la qualité de leur communication et la qualité de leurs échanges en tant qu’équipe. Ainsi, L'étude a confirmé que les équipes ayant échouées pensaient en moyenne être une mauvaise équipe, et inversement pour les équipes ayant réussi la mission.
+			Contrairement à ce que nous espérions montrer, nos analyses ne peuvent pas expliquer l'échec ou la réussite des équipes. Néanmoins, les méthodes d'analyses ont pu montrer que les participants ayant réussi à la tâche répondaient, en moyenne, ensuite tous de la même manières aux questions sur la qualité de leur communication et la qualité de leurs échanges au sein de l’équipe. Ainsi, l'étude a confirmé que les équipes ayant échouées pensaient en moyenne être une mauvaise équipe, et inversement pour les équipes ayant réussi la mission.
 			</p>
 			 	<div class="text-center ">
 				<a href="Analyse2.php" class="btn bg-light" role="button" style="color:rgb(121, 0, 0)">En savoir plus </a>

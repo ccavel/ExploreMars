@@ -78,10 +78,7 @@ require_once "includes/navbar.php";
 			<br/>
 			<p class="lead">
 			<span class="big">Conclusion d'analyse :</span> 
-			Contrairement à ce que nous ésperions montrer, nos analyses ne peuvent pas expliquer l'échec ou la réussite des équipes. Néanmoins,
-				les méthodes d'analyses ont pu montrer que les participants ayant réussi à la tâche répondaient ensuite tous de la même manières aux questions sur la qualité de leur communication et la qualité de leurs échanges en tant qu’équipe.
-			
-
+			Contrairement à ce que nous ésperions montrer, nos analyses ne peuvent pas expliquer l'échec ou la réussite des équipes. Néanmoins, les méthodes d'analyses ont pu montrer que les participants ayant réussi à la tâche répondaient ensuite tous de la même manières aux questions sur la qualité de leur communication et la qualité de leurs échanges en tant qu’équipe. Ainsi, L'étude a confirmé que les équipes ayant échouées pensaient en moyenne être une mauvaise équipe, et inversement pour les équipes ayant réussi la mission.
 			</p>
 			 	<div class="text-center ">
 				<a href="Analyse2.php" class="btn bg-light" role="button" style="color:rgb(121, 0, 0)">En savoir plus </a>

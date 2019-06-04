@@ -72,6 +72,12 @@ require_once "includes/navbar.php";
         <br/>
         <br/>
         <span class="big">Conclusion d'analyse :</span> 
+  <p class="lead text-justify">
+        Après analyses sur le lien entre le PDCS spatial et la performance en terme de durée, 
+        on distingue deux groupes : l'un avec inexactitude et différent et l'autre avec inexactitude mais similaire.
+        Même si ces différences ne sont pas assez pour expliqué les différences entre les équipes par rapport à leur performance,
+        les résultats des analyses montrent que PDCS spatial peut être utilisé comme un indicateur linéaire pour anticiper les performance en temps des équipes.
+ </p>
  </p>
 <br/>
 <br/>

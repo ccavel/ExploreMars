@@ -161,15 +161,18 @@ arbres en séparant les groupes ayant réussis de ceux ayant échoué. </li>
 <br/>  
 <br/><br/>
 <span class="big">Conclusion d'analyse :</span> 
+<p class="lead text-justify">
+<br/>
 Contrairement à ce que nous souhaitions voir lors de cette étude, les questions les plus objectives (le sexe, le module…) de notre questionnaire ne permettaient pas d’expliquer la réussite ou l’échec à la tâche.
 	Toutes les autres questions présentes dans le questionnaires étaient à interpréter en sachant qu’elles avaient été posées après la tâche, et étaient donc influencées par le fait que le sujet avait conscience d’avoir ou non réussi et sont donc subjectives. Toutefois, même parmi les questions plus subjectives, celles étant les plus indépendantes de la tâches n’ont pas permis de diviser la population entre les échecs et les réussites.
 Nous avons donc choisi de nous intéresser de plus prêt au questions plus subjectives directement liées à la perception de la réussite et du déroulement de la tâche. Ces variables ont permis une bien meilleure discrimination des deux groupes. Les deux approches utilisées, la méthode ACP pure et la méthode ACP + ClustOfVar ont notamment permis d’identifier que les participants ayant réussi à la tâche répondaient ensuite tous de la même manières aux questions sur la qualité de leur communication et la qualité de leurs échanges en tant qu’équipe.
 	  Ces résultats nous permettent donc de réfléchir aux expériences futurs, où on pourrait proposer aux participants de ne plus s'intéresser particulièrement à leur communication et à leur travail d’équipe pour voir si cela réduit le nombre d’échecs à la tâche. On pourrait aussi leur donner des méthodes de communication et de travail d’équipe à appliquer.
 	  Ces deux paramètres permettent en tout cas de regrouper les participants selon les groupes qui nous intéressent. 
 Les regroupements avec les paramètres DifficulteTrouverRoche, PerformancePerso, PerformanceCoeq se sont aussi trouvés être représentatifs, on a donc une bonne compréhension des objectifs de la tâche de la part des participants, et une bonne capacité à l’auto-évaluation particulièrement pertinente dans un contexte de mission martienne comme c’est le cas pour cette expérience.
-
+<br/>
 Avec le recul, notre questionnaire n’a pas permis lors de cette analyse de mettre en avant des statistiques intéressantes. Les corrélations et regroupements identifiés n’ont fait que nous indiquer des choses pouvant paraître évidentes sur le fait que les personnes échouant à une tâche le savent. Nous avons ainsi pu réorienter notre analyse vers une autre mise en forme des données, et d’autres hypothèses portant sur une comparaison entre membres de l’équipe notamment. 
 
+</p>
 </div>
 </div>
 </div>
